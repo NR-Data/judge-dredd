@@ -1,0 +1,99 @@
+{
+  "catalogue": {
+    "name": "The Dark Judges (WG2019)",
+    "id": "2115-3541-7237-f2ed",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Judge Death",
+        "id": "6957-e036-3dc6-3f97",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "51ef-9824-7006-52fb",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Judge Death",
+        "id": "5467-cde5-142c-1372",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "0", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "5", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "5", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "5", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "5", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "The Sssentence iss Death, Blow his Bones Away!, Anderssson!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Judge Death",
+        "id": "51ef-9824-7006-52fb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ca3f-770e-4ed2-3bfb", "hidden": false, "primary": false, "targetId": "8cfd-42d4-756a-862b"},
+          {"name": "New CategoryLink", "id": "6975-03eb-8f74-379b", "hidden": false, "primary": true, "targetId": "bbde-2ef6-d4a2-25e2"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 22}],
+        "infoGroups": [
+          {
+            "name": "Judge Death Rules",
+            "id": "3172-f5a0-453c-1979",
+            "hidden": false,
+            "rules": [
+              {
+                "name": "The Sssentence iss Death",
+                "id": "4637-c602-fe8c-8010",
+                "description": "When hit by a close combat attack by Death, the target does not roll any Resist Dice when resolving the hit.\nModels incapacitated by Death are always fatalities.",
+                "hidden": false
+              },
+              {
+                "name": "Blow his Bones Away!",
+                "id": "029a-af12-4f0b-ecff",
+                "description": "Any attempt to dogde an Incendiary or Blast weapon reduces the number oppf evade dice Death rolls by 3",
+                "hidden": false
+              },
+              {
+                "name": "Anderssson!",
+                "id": "ab54-c160-6f9f-5122",
+                "description": "Death is vulnerable only to Respect the Law skill if the activated Judge is a Psi-Judge.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Judge Death", "id": "397d-a1a0-c4a8-4bdf", "hidden": false, "targetId": "5467-cde5-142c-1372", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Heart Squeeze",
+            "id": "0c80-3b1a-7dc5-6d64",
+            "hidden": false,
+            "typeId": "8364-8962-cf49-2248",
+            "typeName": "[3] Close Combat Weapon/s",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+              {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+              {"name": "Special Rules", "$text": "-", "typeId": "bb54-254f-6c80-2469"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

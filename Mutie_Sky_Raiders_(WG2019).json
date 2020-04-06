@@ -1,0 +1,456 @@
+{
+  "catalogue": {
+    "name": "Mutie Sky Raiders (WG2019)",
+    "id": "42e6-96e8-e398-1c2f",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Sky Raider Pack Leader",
+        "id": "ac51-75a8-d3a3-ca8b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9c55-ed1e-d935-8313",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sky Raider",
+        "id": "4387-6502-7fe1-6de5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8c5b-1e18-6fd6-8e81",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sky Raider Alpha",
+        "id": "8108-6546-8aa0-f589",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c202-4239-bdde-8b8b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sky Raider Pack Leader [Vehicle seat]",
+        "id": "5c31-e36c-8df2-c8f6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "24ea-96de-e4b9-2579",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sky Raider Alpha [Vehicle seat]",
+        "id": "43da-47bc-003d-2b3b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0d42-edf3-4b08-e132",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sky Raider [Vehicle seat]",
+        "id": "c57d-ab28-400b-0527",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "725f-8bc5-6582-9144",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Sky Raider",
+        "id": "63e3-bd96-e64c-92cc",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "2", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Scary Mutant", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Sky Raider Alpha",
+        "id": "e1c3-f47e-30e3-c41e",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Scary Mutant", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Sky Raider Pack Leader",
+        "id": "f13e-d2f2-9c9d-330a",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Mutie Insight, Scary Mutant, \"Take That, Norms!\"", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Sky Raider Pack Leader",
+        "id": "9c55-ed1e-d935-8313",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2dd8-154d-d230-f539", "hidden": false, "primary": false, "targetId": "99ee-b34f-b01c-ed36"},
+          {"name": "New CategoryLink", "id": "fdd2-86b7-28af-4e49", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 11}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "2025-4ef3-98b6-e536",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": ">[Mounts]",
+            "id": "1664-255e-42c5-eeec",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "157a-d454-0c14-705f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "2517-bdfe-42e4-2173",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Sky Raider Pack Leader Info",
+            "id": "7541-fd2b-e18a-a52d",
+            "hidden": false,
+            "rules": [
+              {
+                "name": "Scary Mutant",
+                "id": "7f03-43c4-d6fd-f293",
+                "description": "Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4\" of the Mutie.",
+                "hidden": false
+              },
+              {
+                "name": "Mutie Insight",
+                "id": "447d-727a-676c-87b4",
+                "description": "If a Sky Raider Pack Leader is the leader of your faction when Big Meg cards are drawn, you draw one extra Big Meg card and can keep one more card than normal.",
+                "hidden": false
+              },
+              {
+                "name": "Take That, Norms!",
+                "id": "01d9-3d3d-3bd1-233d",
+                "description": "When the Sky Raider Pack Leader activates, they can use a single action to remove D3 Action chips from any Sky Raiders within 6\" and return those chips to the bag.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Sky Raider Pack Leader", "id": "71b2-7a1a-6cd7-231f", "hidden": false, "targetId": "f13e-d2f2-9c9d-330a", "type": "profile"}]
+      },
+      {
+        "name": "Sky Raider Alpha",
+        "id": "c202-4239-bdde-8b8b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c9b8-f25b-04e0-6e4a", "hidden": false, "primary": false, "targetId": "99ee-b34f-b01c-ed36"},
+          {"name": "New CategoryLink", "id": "e694-2753-88ef-adf1", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "cb72-ef3e-9cea-0493",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": ">[Mounts]",
+            "id": "98b3-df32-2d6c-875f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "9985-7a53-f8cd-fcf6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1829-5903-571d-d0c8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Sky Raider Alpha", "id": "84e0-80b2-697f-6756", "hidden": false, "targetId": "e1c3-f47e-30e3-c41e", "type": "profile"}],
+        "rules": [
+          {
+            "name": "Scary Mutant",
+            "id": "fa61-11af-d4a6-822b",
+            "description": "Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4\" of the Mutie.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Sky Raider",
+        "id": "8c5b-1e18-6fd6-8e81",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "51bf-404b-eafb-39b4", "hidden": false, "primary": false, "targetId": "99ee-b34f-b01c-ed36"},
+          {"name": "New CategoryLink", "id": "bf10-1bd7-ed9f-1a26", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 3}],
+        "entryLinks": [
+          {
+            "name": ">[Mounts]",
+            "id": "d3a7-4e3e-8989-1940",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "5996-6f80-9faf-9911",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f2b6-8ce2-c964-72f5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "<[Weapons]",
+            "id": "a84a-b535-66e4-8220",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Sky Raider", "id": "a537-b361-3aec-04d4", "hidden": false, "targetId": "63e3-bd96-e64c-92cc", "type": "profile"}],
+        "rules": [
+          {
+            "name": "Scary Mutant",
+            "id": "609d-f39f-5247-6550",
+            "description": "Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4\" of the Mutie.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Sky Raider Pack Leader [Vehicle seat]",
+        "id": "24ea-96de-e4b9-2579",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a295-ce28-c001-5bc0", "hidden": false, "primary": false, "targetId": "99ee-b34f-b01c-ed36"},
+          {"name": "New CategoryLink", "id": "fd8e-54fb-0563-fda0", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 11}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "c840-c2ae-cdbf-c542",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Sky Raider Pack Leader Info",
+            "id": "4cfe-08e0-387f-3485",
+            "hidden": false,
+            "rules": [
+              {
+                "name": "Scary Mutant",
+                "id": "5a49-9a9d-9660-7941",
+                "description": "Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4\" of the Mutie.",
+                "hidden": false
+              },
+              {
+                "name": "Mutie Insight",
+                "id": "f8fb-9754-cca4-ad0d",
+                "description": "If a Sky Raider Pack Leader is the leader of your faction when Big Meg cards are drawn, you draw one extra Big Meg card and can keep one more card than normal.",
+                "hidden": false
+              },
+              {
+                "name": "Take That, Norms!",
+                "id": "9ae8-639f-cb27-1ce2",
+                "description": "When the Sky Raider Pack Leader activates, they can use a single action to remove D3 Action chips from any Sky Raiders within 6\" and return those chips to the bag.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Sky Raider Pack Leader", "id": "d342-0f1f-42e4-81d8", "hidden": false, "targetId": "f13e-d2f2-9c9d-330a", "type": "profile"}]
+      },
+      {
+        "name": "Sky Raider Alpha [Vehicle seat]",
+        "id": "0d42-edf3-4b08-e132",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8aff-2bf5-79c4-b584", "hidden": false, "primary": false, "targetId": "99ee-b34f-b01c-ed36"},
+          {"name": "New CategoryLink", "id": "bd29-6390-da69-02a6", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "74ef-f503-d47c-dd67",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Sky Raider Alpha", "id": "60e3-2866-f082-5d41", "hidden": false, "targetId": "e1c3-f47e-30e3-c41e", "type": "profile"}],
+        "rules": [
+          {
+            "name": "Scary Mutant",
+            "id": "3f4e-dfcb-920f-1c5d",
+            "description": "Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4\" of the Mutie.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Sky Raider [Vehicle seat]",
+        "id": "725f-8bc5-6582-9144",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "fab9-cb39-6559-3aef", "hidden": false, "primary": false, "targetId": "99ee-b34f-b01c-ed36"},
+          {"name": "New CategoryLink", "id": "d4c4-5980-416f-4789", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "72a2-0348-1060-36f4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Sky Raider", "id": "83a3-8e77-0931-ed30", "hidden": false, "targetId": "63e3-bd96-e64c-92cc", "type": "profile"}],
+        "rules": [
+          {
+            "name": "Scary Mutant",
+            "id": "60e6-3905-7749-4c99",
+            "description": "Models other than Judges suffer -1 on any tests made against their Cool stat when they are within 4\" of the Mutie.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}

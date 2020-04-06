@@ -1,0 +1,925 @@
+{
+  "catalogue": {
+    "name": "Block Gangs (WG2019)",
+    "id": "02a6-70b4-f4a1-c63d",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 3,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Gang Juve/s",
+        "id": "a6d4-9516-6dc3-d758",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "78e3-617a-ccf6-d0d5",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Gang Lieutenant",
+        "id": "3f05-1b1f-4912-a45f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0ed8-f93d-de36-98a7",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Gang Heavy",
+        "id": "31ac-0b5b-53aa-d688",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dc38-e623-6034-7d1e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Gang Punk",
+        "id": "b6d3-d777-0c4c-9567",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "33e0-cf96-52ff-0e1a",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Gang Juve/s",
+        "id": "2aae-2fe2-7e49-b0a3",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "1", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "1", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "1", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "1", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Pack (3)", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Gang Punk",
+        "id": "4309-fcd8-4877-091b",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "2", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "2", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "-", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Gang Lieutenant",
+        "id": "e7d3-621c-05ab-aea7",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+          {
+            "name": "Special Rules",
+            "$text": "Brawler or Gunfighter, \"C'mon, You Lily-livered Scumsuckers\", \"Drokk the Stinking Jays!\"",
+            "typeId": "a488-1615-8c9e-2b73"
+          }
+        ]
+      },
+      {
+        "name": "Gang Heavy",
+        "id": "2563-406d-595a-08be",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "-", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Pistol",
+        "id": "802b-96d6-065b-df86",
+        "hidden": false,
+        "page": 41,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Spit Pistol",
+        "id": "700d-7d63-d7c6-061a",
+        "hidden": false,
+        "page": 41,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Hand Cannon",
+        "id": "f546-4b69-8f22-1725",
+        "hidden": false,
+        "page": 41,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Laser Pistol",
+        "id": "af90-ced3-fa82-9381",
+        "hidden": false,
+        "page": 41,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "Laser", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Combat Rifle",
+        "id": "1fe4-3861-5c65-0a83",
+        "hidden": false,
+        "page": 42,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Spit Carbine",
+        "id": "2d2c-7cbe-33f7-451b",
+        "hidden": false,
+        "page": 42,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+3", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Sniper Rifle",
+        "id": "c596-972a-ddcb-2d1d",
+        "hidden": false,
+        "page": 42,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "0", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "36\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "+1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "Long Barrel", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Laser Rifle",
+        "id": "e31e-9350-83c5-bd7c",
+        "hidden": false,
+        "page": 42,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "Laser", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Sawn-off Stump Gun",
+        "id": "6334-27e3-3aa8-94a1",
+        "hidden": false,
+        "page": 43,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "-", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+          {
+            "name": "Special Rules",
+            "$text": "KnockBack, Cannot fire 2 Snapshots in a single activation, May be fired one- or two-handed (-1 Shoot modifier if fired one-handed)",
+            "typeId": "6150-dda2-d656-9797"
+          }
+        ]
+      },
+      {
+        "name": "Auto Stump",
+        "id": "a022-f5be-343d-678b",
+        "hidden": false,
+        "page": 43,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "18\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "4/2", "typeId": "8fc6-55c1-1604-402e"},
+          {
+            "name": "Special Rules",
+            "$text": "KnockBack, May fire 2 Snapshots in a single activation, Power 4 at short range, Power two at long range.",
+            "typeId": "6150-dda2-d656-9797"
+          }
+        ]
+      },
+      {
+        "name": "Stump Gun",
+        "id": "1ec8-1a59-40e1-9023",
+        "hidden": false,
+        "page": 43,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "18\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "4/2", "typeId": "8fc6-55c1-1604-402e"},
+          {
+            "name": "Special Rules",
+            "$text": "KnockBack, Cannot fire 2 Snapshots in a single activation, Power 4 at short range, Power two at long range.",
+            "typeId": "6150-dda2-d656-9797"
+          }
+        ]
+      },
+      {
+        "name": "Heavy Spit Gun",
+        "id": "415a-1036-8841-d49b",
+        "hidden": false,
+        "page": 44,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "16\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+3", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "48\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "+2", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "Heavy Weapon", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "General Aerodynamix HAWK 2 Rocket Launcher",
+        "id": "1f87-e73d-19ed-b5e7",
+        "hidden": false,
+        "page": 44,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "20\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "40\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "Heavy Weapon, Balst (2\"), May use Armoury card special rounds.", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Close Combat Weapon",
+        "id": "02b8-b950-5106-899e",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "-", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Knife",
+        "id": "b1bf-1ff8-bd08-2d30",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "Throw", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Chain",
+        "id": "96c6-0607-72f8-9ea0",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "3\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "0", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "-", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Laz Saw",
+        "id": "c4b4-deb9-1801-6ed3",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+2", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "Piercing, Rending", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Culinary Lazer",
+        "id": "2318-6a86-473a-1cd0",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "Concealed, Piercing", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Baseball Bat",
+        "id": "40d2-4bc0-f244-9482",
+        "hidden": false,
+        "page": 47,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+2", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "Stun", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Katana",
+        "id": "f2be-c14f-358e-78c1",
+        "hidden": false,
+        "page": 47,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+2", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "Rending", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Dual Hand Cannon",
+        "id": "35a7-3517-a810-3a6f",
+        "hidden": false,
+        "page": 41,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Dual Pistol",
+        "id": "79a2-9f34-7750-5ae6",
+        "hidden": false,
+        "page": 41,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Dual Sawn-off Stump Gun",
+        "id": "2949-fb49-6f0c-5c20",
+        "hidden": false,
+        "page": 43,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "-", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+          {
+            "name": "Special Rules",
+            "$text": "KnockBack, Cannot fire 2 Snapshots in a single activation, May be fired one- or two-handed (-1 Shoot modifier if fired one-handed)",
+            "typeId": "6150-dda2-d656-9797"
+          }
+        ]
+      },
+      {
+        "name": "Dual Spit Pistol",
+        "id": "27a1-6fcb-fa39-ad29",
+        "hidden": false,
+        "page": 41,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "bbb4-d231-609d-67bc",
+        "typeName": "[2] Ranged Weapon/s",
+        "characteristics": [
+          {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+          {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+          {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+          {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+          {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+          {"name": "Special Rules", "$text": "-", "typeId": "6150-dda2-d656-9797"}
+        ]
+      },
+      {
+        "name": "Dual Chain",
+        "id": "9f92-b2b0-2ae8-ba9a",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "3\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "0", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "-", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Dual Knife",
+        "id": "f4c2-4567-3b1c-5f2f",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "Throw", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Dual Close Combat Weapon",
+        "id": "e302-84ee-b7fa-4c76",
+        "hidden": false,
+        "page": 46,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "8364-8962-cf49-2248",
+        "typeName": "[3] Close Combat Weapon/s",
+        "characteristics": [
+          {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+          {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+          {"name": "Special Rules", "$text": "-", "typeId": "bb54-254f-6c80-2469"}
+        ]
+      },
+      {
+        "name": "Bat Glider",
+        "id": "cc56-a827-af31-9253",
+        "hidden": false,
+        "page": 29,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "1ad0-6f7a-89c2-56c0",
+        "typeName": "[4] Mount",
+        "characteristics": [
+          {"name": "Move", "$text": "+D6\"", "typeId": "f8e7-0c5a-630a-6072"},
+          {"name": "Shoot", "$text": "-1", "typeId": "cf37-0e8c-2b04-e94e"},
+          {"name": "Fight", "$text": "0", "typeId": "9bbe-2745-8a35-94ab"},
+          {"name": "Evade", "$text": "+1", "typeId": "8a4d-9660-2e2d-760c"},
+          {"name": "Resist", "$text": "-2", "typeId": "5895-12a6-bdef-a0b4"},
+          {"name": "Cool", "$text": "-1", "typeId": "e971-e0b1-c42c-0f04"},
+          {"name": "Special Rules", "$text": "Grav, One-handed weapon only", "typeId": "c7e1-0b5d-d4d9-8634"}
+        ]
+      },
+      {
+        "name": "Gang Bike",
+        "id": "5750-2267-a3e5-17ac",
+        "hidden": false,
+        "page": 29,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "1ad0-6f7a-89c2-56c0",
+        "typeName": "[4] Mount",
+        "characteristics": [
+          {"name": "Move", "$text": "+4\"", "typeId": "f8e7-0c5a-630a-6072"},
+          {"name": "Shoot", "$text": "-1", "typeId": "cf37-0e8c-2b04-e94e"},
+          {"name": "Fight", "$text": "-1", "typeId": "9bbe-2745-8a35-94ab"},
+          {"name": "Evade", "$text": "0", "typeId": "8a4d-9660-2e2d-760c"},
+          {"name": "Resist", "$text": "+1", "typeId": "5895-12a6-bdef-a0b4"},
+          {"name": "Cool", "$text": "0", "typeId": "e971-e0b1-c42c-0f04"},
+          {"name": "Special Rules", "$text": "-", "typeId": "c7e1-0b5d-d4d9-8634"}
+        ]
+      },
+      {
+        "name": "Power Board",
+        "id": "bd18-6402-a29f-77e0",
+        "hidden": false,
+        "page": 29,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "1ad0-6f7a-89c2-56c0",
+        "typeName": "[4] Mount",
+        "characteristics": [
+          {"name": "Move", "$text": "+8\"", "typeId": "f8e7-0c5a-630a-6072"},
+          {"name": "Shoot", "$text": "-1", "typeId": "cf37-0e8c-2b04-e94e"},
+          {"name": "Fight", "$text": "-1", "typeId": "9bbe-2745-8a35-94ab"},
+          {"name": "Evade", "$text": "+1", "typeId": "8a4d-9660-2e2d-760c"},
+          {"name": "Resist", "$text": "0", "typeId": "5895-12a6-bdef-a0b4"},
+          {"name": "Cool", "$text": "0", "typeId": "e971-e0b1-c42c-0f04"},
+          {"name": "Special Rules", "$text": "Grav", "typeId": "c7e1-0b5d-d4d9-8634"}
+        ]
+      },
+      {
+        "name": "Sky Bike",
+        "id": "5f39-cdb8-b274-509a",
+        "hidden": false,
+        "page": 29,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "1ad0-6f7a-89c2-56c0",
+        "typeName": "[4] Mount",
+        "characteristics": [
+          {"name": "Move", "$text": "+6\"", "typeId": "f8e7-0c5a-630a-6072"},
+          {"name": "Shoot", "$text": "-1", "typeId": "cf37-0e8c-2b04-e94e"},
+          {"name": "Fight", "$text": "-1", "typeId": "9bbe-2745-8a35-94ab"},
+          {"name": "Evade", "$text": "+1", "typeId": "8a4d-9660-2e2d-760c"},
+          {"name": "Resist", "$text": "+1", "typeId": "5895-12a6-bdef-a0b4"},
+          {"name": "Cool", "$text": "0", "typeId": "e971-e0b1-c42c-0f04"},
+          {"name": "Special Rules", "$text": "Grav", "typeId": "c7e1-0b5d-d4d9-8634"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "\"C'mon, You Lily-livered Scumsuckers\"",
+        "id": "ff44-85c0-1374-dd81",
+        "description": "When a Gang Lieutenant activates, they can use a single action to remove D3 Action chips from any gang members within 6\" and return those chips to the bag.",
+        "hidden": false,
+        "page": 94,
+        "publicationId": "23e2-8cf2-260a-a7be"
+      },
+      {
+        "name": "\"Drokk the Stinkin Jays!\"",
+        "id": "a783-6059-614f-371e",
+        "description": "A Gang Lieutenant, and any Gang Heavy within 6\" of them, may ignore the Respect the Law special rule.",
+        "hidden": false,
+        "page": 94,
+        "publicationId": "23e2-8cf2-260a-a7be"
+      },
+      {
+        "name": "Pack (3)",
+        "id": "e98d-5647-3a8e-20da",
+        "description": "Juves come in packs of three.",
+        "hidden": false,
+        "page": 94,
+        "publicationId": "23e2-8cf2-260a-a7be"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Gang Juve/s",
+        "id": "78e3-617a-ccf6-d0d5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 94,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ed69-97f5-1b06-019d", "hidden": false, "primary": true, "targetId": "3671-e139-0e9b-f450"},
+          {"name": "<Block Gangs", "id": "e403-d156-95e6-01be", "hidden": false, "primary": false, "targetId": "8f61-3865-f1e7-f762"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 6}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "4e02-38fa-ea28-23fb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "86e2-496f-b347-d3b7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Pack (3)", "id": "4347-1e77-846a-a018", "hidden": false, "targetId": "e98d-5647-3a8e-20da", "type": "rule"},
+          {"name": "Gang Juve/s", "id": "e5e6-e2d4-a288-5e6f", "hidden": false, "targetId": "2aae-2fe2-7e49-b0a3", "type": "profile"}
+        ]
+      },
+      {
+        "name": "Gang Punk",
+        "id": "33e0-cf96-52ff-0e1a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 94,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "19c3-2042-7424-f32e", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"},
+          {"name": "<Block Gangs", "id": "66c2-0d57-5f28-7c3c", "hidden": false, "primary": false, "targetId": "8f61-3865-f1e7-f762"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "bd6f-f6d7-30f0-f484",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "309c-9a21-59b9-f531",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Gang Punk", "id": "707e-0df4-31d2-4ff7", "hidden": false, "targetId": "4309-fcd8-4877-091b", "type": "profile"}]
+      },
+      {
+        "name": "Gang Heavy",
+        "id": "dc38-e623-6034-7d1e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 94,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "92f4-6f4c-93d8-ae27", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"},
+          {"name": "<Block Gangs", "id": "5d5e-96da-f6ec-f425", "hidden": false, "primary": false, "targetId": "8f61-3865-f1e7-f762"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "908d-9c0d-6847-3465",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "f681-c5cd-5b96-4fca",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Gang Heavy", "id": "10c8-75f9-0183-2cd7", "hidden": false, "targetId": "2563-406d-595a-08be", "type": "profile"}]
+      },
+      {
+        "name": "Gang Lieutenant",
+        "id": "0ed8-f93d-de36-98a7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 94,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "71b2-aa6d-1d3b-6e9e", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"},
+          {"name": "<Block Gangs", "id": "f6a7-da5a-93c1-f8a7", "hidden": false, "primary": false, "targetId": "8f61-3865-f1e7-f762"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 13}],
+        "entryLinks": [
+          {
+            "name": "Gunfighter or Brawler",
+            "id": "9700-3bdf-1604-95f1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e1d5-2790-5343-8f92",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "c7ef-f37b-52de-9334",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[Weapons]",
+            "id": "84a8-70a7-9b4d-93ac",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "\"C'mon, You Lily-livered Scumsuckers\"", "id": "c59d-81b8-297b-2a16", "hidden": false, "targetId": "ff44-85c0-1374-dd81", "type": "rule"},
+          {"name": "\"Drokk the Stinkin Jays!\"", "id": "e3d9-9ced-d485-cb0b", "hidden": false, "targetId": "a783-6059-614f-371e", "type": "rule"},
+          {
+            "name": "Gang Lieutenant",
+            "id": "37d4-8623-085d-656f",
+            "hidden": false,
+            "targetId": "e7d3-621c-05ab-aea7",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Gunfighter, \"C'mon, You Lily-livered Scumsuckers\", \"Drokk the Stinking Jays!\"",
+                "conditions": [
+                  {
+                    "childId": "07fe-033c-df6d-4d06",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "0ed8-f93d-de36-98a7",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Brawler, \"C'mon, You Lily-livered Scumsuckers\", \"Drokk the Stinking Jays!\"",
+                "conditions": [
+                  {
+                    "childId": "4fc8-e66b-954c-aedb",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "0ed8-f93d-de36-98a7",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": ">Combat Skill",
+        "id": "e1d5-2790-5343-8f92",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "c65d-3f2c-705f-56b9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "c5a6-1235-349c-c4de",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gunfighter",
+            "id": "07fe-033c-df6d-4d06",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Gunfighter", "id": "c968-600c-43ed-f6cf", "hidden": false, "targetId": "cf10-e6f2-897d-aaad", "type": "rule"}]
+          },
+          {
+            "name": "Brawler",
+            "id": "4fc8-e66b-954c-aedb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Brawler", "id": "8f85-9c5b-948d-8354", "hidden": false, "targetId": "cff2-8dcb-5e21-c8c4", "type": "rule"}]
+          }
+        ]
+      }
+    ]
+  }
+}

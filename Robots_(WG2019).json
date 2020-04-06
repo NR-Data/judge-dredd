@@ -1,0 +1,1143 @@
+{
+  "catalogue": {
+    "name": "Robots (WG2019)",
+    "id": "4d9f-8dbb-b7f9-66a8",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "DemoBot",
+        "id": "69cc-b013-e173-bb44",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ab7f-3a3a-48ff-4e32",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "MediBot",
+        "id": "1d25-9a6c-ba74-333e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8317-bada-8574-34eb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "UtilBot",
+        "id": "9083-7b13-a82b-691b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3f6e-19fc-bb83-2112",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "WarBot",
+        "id": "7191-d7e3-73de-13e6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a7d1-cf48-275b-0a33",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Mechanismo Mk1 Auxiliary Judge",
+        "id": "cad8-3b92-33c2-7f5b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3985-b687-fa23-332a",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "UtilBot",
+        "id": "ced2-5705-6e67-b7be",
+        "hidden": false,
+        "typeId": "1ad0-6f7a-89c2-56c0",
+        "typeName": "[4] Mount",
+        "characteristics": [
+          {"name": "Move", "$text": "4\"", "typeId": "f8e7-0c5a-630a-6072"},
+          {"name": "Shoot", "$text": "1", "typeId": "cf37-0e8c-2b04-e94e"},
+          {"name": "Fight", "$text": "2", "typeId": "9bbe-2745-8a35-94ab"},
+          {"name": "Evade", "$text": "0", "typeId": "8a4d-9660-2e2d-760c"},
+          {"name": "Resist", "$text": "4", "typeId": "5895-12a6-bdef-a0b4"},
+          {"name": "Cool", "$text": "2", "typeId": "e971-e0b1-c42c-0f04"},
+          {"name": "Special Rules", "$text": "Robot", "typeId": "c7e1-0b5d-d4d9-8634"}
+        ]
+      },
+      {
+        "name": "MediBot",
+        "id": "953e-ebfe-338f-28bf",
+        "hidden": false,
+        "typeId": "1ad0-6f7a-89c2-56c0",
+        "typeName": "[4] Mount",
+        "characteristics": [
+          {"name": "Move", "$text": "4\"", "typeId": "f8e7-0c5a-630a-6072"},
+          {"name": "Shoot", "$text": "-", "typeId": "cf37-0e8c-2b04-e94e"},
+          {"name": "Fight", "$text": "2", "typeId": "9bbe-2745-8a35-94ab"},
+          {"name": "Evade", "$text": "0", "typeId": "8a4d-9660-2e2d-760c"},
+          {"name": "Resist", "$text": "4", "typeId": "5895-12a6-bdef-a0b4"},
+          {"name": "Cool", "$text": "2", "typeId": "e971-e0b1-c42c-0f04"},
+          {"name": "Special Rules", "$text": "Robot, Combat Medic", "typeId": "c7e1-0b5d-d4d9-8634"}
+        ]
+      },
+      {
+        "name": "SecBot",
+        "id": "7fa9-0172-b0cd-8b14",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "0", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "5", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Perimeter Alert, Robot", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "WarBot",
+        "id": "81f6-bbf8-d713-3754",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "6", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Gunfighter, Robot, Self-Repair Sub-Routines", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "DemoBot",
+        "id": "b0ca-9c88-23ae-a3e2",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "1", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "0", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "6", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Ponderous, Robot", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Mechanismo Mk1 Auxiliary Judge",
+        "id": "4d1c-5728-c13f-6521",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "5", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "0", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "6", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "4*", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Robot, Respect the Machine Law, Self-Repair Sub-Routines, Shut Down Number 5!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Robot",
+        "id": "77fa-9473-9b8f-9902",
+        "description": "Robots can only generate normal Action chips, never Star chips. Robots are unaffected by PSI Skills.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "UtilBot",
+        "id": "3f6e-19fc-bb83-2112",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9a8c-c10f-ab1e-533d", "hidden": false, "primary": false, "targetId": "a68a-3ba3-3053-a25b"},
+          {"name": "New CategoryLink", "id": "3cd9-5e3f-7108-cd4b", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 3}],
+        "infoLinks": [{"name": "Robot", "id": "47a6-1820-a2af-5600", "hidden": false, "targetId": "77fa-9473-9b8f-9902", "type": "rule"}],
+        "selectionEntries": [
+          {
+            "name": "Improvised Ranged Weapon",
+            "id": "5ac8-a94e-611f-d6c3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "cf51-2274-9794-e2a4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "44e9-f635-b6c9-b51f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Throw", "id": "13c2-ef74-0208-8017", "hidden": false, "targetId": "5255-df17-8c9a-15cd", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Improvised Ranged Weapon",
+                "id": "8146-4e94-d5d2-3243",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "3\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "9\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Throw", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Improvised Close Combat Weapon",
+            "id": "9af5-be3c-a9cd-f609",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "f81a-926c-3f86-ce18",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "15b4-5d94-523b-e6d8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "profiles": [
+              {
+                "name": "Improvised Close Combat Weapon",
+                "id": "f176-35fd-d55e-310e",
+                "hidden": false,
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MediBot",
+        "id": "8317-bada-8574-34eb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b5de-22e2-2285-d0fb", "hidden": false, "primary": false, "targetId": "a68a-3ba3-3053-a25b"},
+          {"name": "New CategoryLink", "id": "76c8-2a4d-717e-4e34", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+        "infoLinks": [{"name": "Robot", "id": "3117-b97b-efd8-ba39", "hidden": false, "targetId": "77fa-9473-9b8f-9902", "type": "rule"}],
+        "rules": [
+          {
+            "name": "Combat Medic",
+            "id": "b9a3-686d-84de-a965",
+            "description": "A MedBot can use the Hunker Down action to attempt to remove Injury and/ or Stun markers from a model within 1\" by rolling a Resist test using the Injured model's origional stat.\nEach [Armour] result removes one marker.\nThis skill can be used to revive incapacitated and subdued models.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Surgical Instruments",
+            "id": "6070-d3a8-aba3-7595",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "2bd0-4c82-d8ca-76d8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "caf7-6c3a-f63c-1122",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Piercing", "id": "0f3e-94f9-9f75-3d66", "hidden": false, "targetId": "3b97-6a4a-235f-ac9e", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Surgical Instruments",
+                "id": "0c9d-301c-5e0e-f94b",
+                "hidden": false,
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "Piercing", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SecBot",
+        "id": "3275-7032-5739-e4e4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8c3c-c7d1-6eb1-47d8", "hidden": false, "primary": false, "targetId": "a68a-3ba3-3053-a25b"},
+          {"name": "New CategoryLink", "id": "75e1-05df-06e5-ae80", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 8}],
+        "infoLinks": [
+          {"name": "SecBot", "id": "4e95-cb53-fac3-b9a8", "hidden": false, "targetId": "7fa9-0172-b0cd-8b14", "type": "profile"},
+          {"name": "Robot", "id": "ae29-0c76-611f-2c5e", "hidden": false, "targetId": "77fa-9473-9b8f-9902", "type": "rule"}
+        ],
+        "rules": [
+          {
+            "name": "Perimeter Alert",
+            "id": "93c7-036f-c7cc-16bb",
+            "description": "At the start of any game turn, you may decide to put any SecBots on Overwatch without spending an ACtion Chip.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Electro-zap Pistol",
+            "id": "8008-7a0f-27f5-e5a3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "4ac1-99c8-3e7a-e8fe",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1034-eeea-c973-b542",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Stun", "id": "8116-54ae-b3fc-0d3c", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Electro-zap Pistol",
+                "id": "99f1-39bf-a327-5798",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+3", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "-", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "-", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Stun", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Stun Prod",
+            "id": "c6fc-4a11-cc43-eaad",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9ec7-2399-c485-68cc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1350-c44f-fc2e-30e5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Stun", "id": "38c0-e241-76b5-0d56", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Stun Prod",
+                "id": "1fd1-2ce9-336d-b12d",
+                "hidden": false,
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1!", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "Stun", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "WarBot",
+        "id": "a7d1-cf48-275b-0a33",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "be04-8f06-16fd-e2bb", "hidden": false, "primary": false, "targetId": "a68a-3ba3-3053-a25b"},
+          {"name": "New CategoryLink", "id": "ca8c-3dab-1996-e524", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 22}],
+        "infoGroups": [
+          {
+            "name": "WarBot",
+            "id": "5d33-0ea9-38cc-0f66",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Robot", "id": "3df3-e638-6781-3e18", "hidden": false, "targetId": "77fa-9473-9b8f-9902", "type": "rule"},
+              {"name": "Gunfighter", "id": "375b-0955-02a7-27f0", "hidden": false, "targetId": "cf10-e6f2-897d-aaad", "type": "rule"}
+            ],
+            "rules": [
+              {
+                "name": "Self-Repair Sub-Routines",
+                "id": "61ea-34b0-d093-583f",
+                "description": "If it is injured and uses the Hunked Down double-action, it can potentially remove all Injury markers if enough successes are rolled.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "WarBot", "id": "42ed-2e4b-4fad-0b8e", "hidden": false, "targetId": "81f6-bbf8-d713-3754", "type": "profile"}],
+        "selectionEntries": [
+          {
+            "name": "Laser Rifle",
+            "id": "b227-93fa-68f2-1bf2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "7d58-f6d2-f760-997b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7771-d25a-dc14-70c7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [
+              {"name": "Laser", "id": "ec70-8532-66e8-e31e", "hidden": false, "targetId": "40c1-f0e4-f19b-eb43", "type": "rule"},
+              {"name": "Piercing", "id": "2e06-fa41-6962-163c", "hidden": false, "targetId": "3b97-6a4a-235f-ac9e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Laser Rifle",
+                "id": "15ac-6a62-6825-3d42",
+                "hidden": false,
+                "page": 42,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Laser, Piercing", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "id": "dcbf-961a-eafc-8e7c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "189d-79ae-b211-8a51",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "23f3-c204-2960-f159",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [
+              {"name": "Blast(X\")", "id": "aa7e-b360-b3ae-f1f3", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"},
+              {"name": "Aimed Fire Only", "id": "4680-9df1-a0b7-fc9b", "hidden": false, "targetId": "5e2e-0e83-a900-1de7", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Inbuilt Rocket Launcher",
+                "id": "5238-b604-e60b-b276",
+                "hidden": false,
+                "page": 44,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "20\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Aimed Fire Only, Balst (2\"), May use Armoury card special rounds.", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DemoBot",
+        "id": "ab7f-3a3a-48ff-4e32",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8067-8661-f8b8-a306", "hidden": false, "primary": false, "targetId": "a68a-3ba3-3053-a25b"},
+          {"name": "New CategoryLink", "id": "4730-eb8d-2159-ec45", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 9}],
+        "infoGroups": [
+          {
+            "name": "DemoBot",
+            "id": "1456-8827-2e2c-a55e",
+            "hidden": false,
+            "infoLinks": [{"name": "Robot", "id": "fd8a-1322-64eb-5ccb", "hidden": false, "targetId": "77fa-9473-9b8f-9902", "type": "rule"}],
+            "rules": [
+              {
+                "name": "Ponderous",
+                "id": "5a3a-069d-f59c-7a46",
+                "description": "Models with this rule may not perform a Sprint double-action.\nWhen performing a Charge double-action, role two D6 and add the lowest result to the model's Move stat.\nA Ponderous model is nevermarked with a Moving Fast marker and ignores the movement effects of Difficult Terrain.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "DemoBot", "id": "d349-3891-f70b-c09b", "hidden": false, "targetId": "b0ca-9c88-23ae-a3e2", "type": "profile"}],
+        "selectionEntries": [
+          {
+            "name": "Demolition Hammer",
+            "id": "9291-5bbc-5fae-ddbb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "6a3b-2d76-5b71-f440",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "90ca-2925-7b9f-41d2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "profiles": [
+              {
+                "name": "Demolition Hammer",
+                "id": "d2b1-3985-3636-d13c",
+                "hidden": false,
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "3\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+5", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Power Drill",
+            "id": "9490-beca-b052-9b13",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "6fd6-c959-461b-dfc5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "49a0-0198-e040-6aeb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [
+              {"name": "Piercing", "id": "e9b2-393e-d9e5-a7fa", "hidden": false, "targetId": "3b97-6a4a-235f-ac9e", "type": "rule"},
+              {"name": "Rending", "id": "6fc9-f6d9-219a-6025", "hidden": false, "targetId": "6c9a-2c96-b40c-99c6", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Power Drill",
+                "id": "db04-ab64-4bf1-2555",
+                "hidden": false,
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+2", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "Piercing, Rending", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rivet Gun",
+            "id": "619b-3221-fb73-3ea3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "a3a7-3900-8302-bf2c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "8209-6e3a-c6c3-0b00",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Aimed Fire Only", "id": "0fe9-47ea-f589-79e3", "hidden": false, "targetId": "5e2e-0e83-a900-1de7", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Rivet Gun",
+                "id": "6877-5c90-24e0-582e",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "6\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "12\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "-2", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Aimed Fire only", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mechanismo Mk1 Auxiliary Judge",
+        "id": "3985-b687-fa23-332a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c128-955c-29a4-db44", "hidden": false, "primary": false, "targetId": "a68a-3ba3-3053-a25b"},
+          {"name": "New CategoryLink", "id": "6e33-13fa-a1e2-dbea", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "1838-f6b7-309d-bcc0", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 15}],
+        "infoGroups": [
+          {
+            "name": "Mech.Mk1 ",
+            "id": "ed90-381c-b4fb-e445",
+            "hidden": false,
+            "infoLinks": [{"name": "Robot", "id": "6edf-68ce-0f4c-8021", "hidden": false, "targetId": "77fa-9473-9b8f-9902", "type": "rule"}],
+            "rules": [
+              {
+                "name": "Self-Repair Sub-Routines",
+                "id": "32a2-c166-affd-cc02",
+                "description": "If it is injured and uses the Hunked Down double-action, it can potentially remove all Injury markers if enough successes are rolled.",
+                "hidden": false
+              },
+              {
+                "name": "Respect the Machine Law",
+                "id": "f539-69d9-532e-7258",
+                "description": "Whenever a Mechanismo Mk1 activates they can immediatly aattemt to intimidate all opposing models that are within line of sight and within 8\" range of the Mechanismo, withouth using an action.\nMake a Cool test:\n[Special]= One model Pinned per result.",
+                "hidden": false
+              },
+              {
+                "name": "Shut Down Number 5!",
+                "id": "61c3-f780-6725-9892",
+                "description": "When activated by using a Star chip or making a double-action, make a Cool test at the end of the models activation.\nIf the Cool test is failed the opposing player may immediately activate the Mechanismo Mk1 and perform up to:\nOne single action or one double-action\nThen may target any model within range and line of sight.\nAfter the activation is complete, the Mechanismo Mk1 is Stunned and control returns to the origional owner.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Mechanismo Mk1 Auxiliary Judge", "id": "2dfe-df40-8f1b-56f4", "hidden": false, "targetId": "4d1c-5728-c13f-6521", "type": "profile"}],
+        "selectionEntries": [
+          {
+            "name": "Judgement Bringer Hand Cannon",
+            "id": "d922-af68-6b33-adbf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "19f1-1713-4c37-db91",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "fca9-dc53-1bd8-f0fe",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [
+              {"name": "Stun", "id": "d576-2ad0-e23c-92f0", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"},
+              {"name": "Special Rounds", "id": "e6ea-4243-a28d-2ef7", "hidden": false, "targetId": "dd58-ed58-d5a9-2fee", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Judgement Bringer Hand Cannon",
+                "id": "8660-0cb1-4b2c-058f",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "20\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Special Rounds, Stun", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mechanismo Rockets",
+            "id": "383f-77b4-4213-3172",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "7b01-150c-6934-9620",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "75bb-cbec-e032-db99",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Blast(X\")", "id": "3d7d-ee8f-abcb-19b1", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Mechanismo Rockets",
+                "id": "85ba-abc4-0984-a5b1",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "6\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "12\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Blast(3\"), One Shot", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "One Shot",
+                "id": "b256-73cc-575d-9860",
+                "description": "This weapon may be used once per game. After it has been used, it may not be used again during the same game.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Day Stick",
+            "id": "7750-b3e7-d9a5-0991",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "dbe3-6192-416a-903a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "007e-2d7d-fd66-c14d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Stun", "id": "d16f-e27d-0108-72ae", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Day Stick",
+                "id": "24d1-982b-e9c5-fc0b",
+                "hidden": false,
+                "page": 68,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "Stun", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Additional Weapon",
+            "id": "9999-7722-ee6f-9f23",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "6d72-a2e8-167d-8564",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "M2000 Widowmaker",
+                "id": "4594-fb1c-8857-2700",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 6}],
+                "infoGroups": [
+                  {
+                    "name": "M2000 Rules",
+                    "id": "4db5-8b38-6d95-dbed",
+                    "hidden": false,
+                    "infoLinks": [
+                      {"name": "Gas", "id": "ee9d-3acc-57d2-744b", "hidden": false, "targetId": "2c77-fddc-a4a3-d41b", "type": "rule"},
+                      {"name": "Stun", "id": "7b6d-87ab-f9d4-3ec9", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"},
+                      {"name": "Blast(X\")", "id": "5dfd-2d14-7215-5174", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"},
+                      {"name": "Aimed Fire Only", "id": "0f07-b29e-9e1b-3618", "hidden": false, "targetId": "5e2e-0e83-a900-1de7", "type": "rule"}
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "M2000 Stumm Gas",
+                    "id": "2c59-e6a1-c91c-0533",
+                    "hidden": false,
+                    "page": 68,
+                    "publicationId": "23e2-8cf2-260a-a7be",
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "6\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "0", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "18\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Aimed Fire Only, Blast(4\"), Gas, Stun", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  },
+                  {
+                    "name": "M2000 Frag",
+                    "id": "1c66-43ae-d4a8-40c8",
+                    "hidden": false,
+                    "page": 68,
+                    "publicationId": "23e2-8cf2-260a-a7be",
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "6\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "0", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "18\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Aimed Fire only, Blast(3\")", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  },
+                  {
+                    "name": "M2000 Widowmaker",
+                    "id": "9ac5-1b2e-dff8-d43c",
+                    "hidden": false,
+                    "page": 68,
+                    "publicationId": "23e2-8cf2-260a-a7be",
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+3", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Special Rounds", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lawrod Mk5",
+                "id": "405a-39b3-ff95-5ddf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+                "infoLinks": [{"name": "Long Barrel", "id": "c432-ad35-eb01-b1c3", "hidden": false, "targetId": "f22c-2612-d386-22ec", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Lawrod Mk5",
+                    "id": "e0f4-1bd9-eb58-4ced",
+                    "hidden": false,
+                    "publicationId": "23e2-8cf2-260a-a7be",
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "0", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "36\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Long Barrel", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

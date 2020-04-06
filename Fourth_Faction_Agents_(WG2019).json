@@ -1,0 +1,100 @@
+{
+  "catalogue": {
+    "name": "Fourth Faction Agents (WG2019)",
+    "id": "617a-12ff-ca68-d3f3",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Genetik Construkt",
+        "id": "77c1-7ef3-5b95-6da3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3f8e-e17f-f12c-0873",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Genetik Construkt",
+        "id": "b88f-61bf-0182-9a22",
+        "hidden": false,
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "7\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "3", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Infiltrator, No Respect for tthe Law, Sniper", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Genetik Construkt",
+        "id": "3f8e-e17f-f12c-0873",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d729-3b36-b3ca-035d", "hidden": false, "primary": false, "targetId": "0150-98ab-6640-0b05"},
+          {"name": "New CategoryLink", "id": "1346-e260-8627-5041", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 12}],
+        "entryLinks": [
+          {
+            "name": "<[Weapons]",
+            "id": "fbfa-c0d2-12e3-65f0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": ">[Mounts]",
+            "id": "d3d1-d772-e72d-4b4e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Genetik Construkt Rules",
+            "id": "d50b-2b90-47b7-e668",
+            "hidden": false,
+            "rules": [
+              {
+                "name": "Infiltrator",
+                "id": "f643-9e01-6d34-9b13",
+                "description": "-Passes Fancy Footwork test automatically.\n-Does not suffer negative Cool test modifiers when opening locked doors or windows using a Hunker Down action.",
+                "hidden": false
+              },
+              {"name": "No Respect for the Law", "id": "c247-b0fd-fea3-ffab", "description": "Immune to Respect the Law rule.", "hidden": false},
+              {
+                "name": "Sniper",
+                "id": "8f45-5189-1a6f-399e",
+                "description": "When a Genetic Construkt is using a two-handed ranged weapon the target rolls -1 Evade.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Genetik Construkt", "id": "6cb5-a915-5578-e601", "hidden": false, "targetId": "b88f-61bf-0182-9a22", "type": "profile"}]
+      }
+    ]
+  }
+}
