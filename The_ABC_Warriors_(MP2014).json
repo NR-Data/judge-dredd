@@ -1,0 +1,15 @@
+{
+  "catalogue": {
+    "name": "The ABC Warriors (MP2014)",
+    "id": "8b3a-587a-916b-7f34",
+    "authorName": "Vescarea",
+    "authorUrl": "https://github.com/BSData/judge-dredd",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "b6bc-5996-1c4c-957c",
+    "gameSystemRevision": 2,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema"
+  }
+}
