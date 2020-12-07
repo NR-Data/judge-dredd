@@ -1,0 +1,446 @@
+{
+  "catalogue": {
+    "name": "Street Gang (MP2014)",
+    "id": "e369-9f39-1125-052f",
+    "authorName": "Vescarea",
+    "authorUrl": "https://github.com/BSData/judge-dredd",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "b6bc-5996-1c4c-957c",
+    "gameSystemRevision": 3,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {"name": "Punk", "id": "8be1-fe2d-eebf-eee4", "collective": false, "hidden": false, "import": true, "targetId": "d9ea-b824-aa98-2c93", "type": "selectionEntry"},
+      {"name": "Juve", "id": "7b38-d2fc-9ab2-f0d7", "collective": false, "hidden": false, "import": true, "targetId": "b740-fb23-6e90-7012", "type": "selectionEntry"}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Juve",
+        "id": "b740-fb23-6e90-7012",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 54,
+        "publicationId": "58d6-eaa3-c92f-a34a",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d207-2138-b849-2dff", "hidden": false, "primary": true, "targetId": "453a-509d-5f60-19d4"},
+          {"name": "[Hero. Lv. Up]", "id": "508e-f94e-0120-e162", "hidden": false, "primary": false, "targetId": "4d4f-5d8c-eed7-0803"},
+          {"name": "[Psi. Hero . Lv. Up]", "id": "809f-0abb-1163-89cd", "hidden": false, "primary": false, "targetId": "1c26-2e7c-0d62-53bf"},
+          {"name": "[Juve]", "id": "75ab-cdad-df42-100a", "hidden": false, "primary": false, "targetId": "754e-5077-941f-5382"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 10}],
+        "profiles": [
+          {
+            "name": "Juve",
+            "id": "c975-752d-909f-c9c0",
+            "hidden": false,
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+1", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "-1", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "-1", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+0", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+0", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "1", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Model Options]",
+            "id": "c6b5-b975-3d0d-a109",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "doom",
+                "conditions": [
+                  {
+                    "childId": "23ed-44b0-f337-8f6d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "< [May be purchased up to 50 Credits of:]",
+                "id": "165a-d220-eb64-d74c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "2d84-4f28-3142-ef56",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "05c4-5a93-f4d9-da4e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "e009-96a2-230b-fb80",
+                    "field": "Credits",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 50
+                  }
+                ],
+                "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "< Weapons, Armour and Equipment >",
+                    "id": "37b9-6b6e-c3d8-9be8",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c7b-1fe8-9efa-1ada",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "< May be purchased up to 100 Credits of: >",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "23ed-44b0-f337-8f6d",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d658-0ad9-6e15-958e",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "field": "e009-96a2-230b-fb80",
+                        "type": "increment",
+                        "value": 50,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "23ed-44b0-f337-8f6d",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d658-0ad9-6e15-958e",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "< [Upgrade to level 1 Hero]",
+                "id": "2caa-6d5f-b650-36ea",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "entryLinks": [
+                  {
+                    "name": "< Hero Leveling >",
+                    "id": "1cf6-2ae3-e08d-b705",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "cbb2-26f6-741b-8b9c",
+                    "type": "selectionEntryGroup",
+                    "constraints": [
+                      {
+                        "id": "b4b3-889d-8bb0-a32d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "max",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Punk",
+        "id": "d9ea-b824-aa98-2c93",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 54,
+        "publicationId": "58d6-eaa3-c92f-a34a",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a234-17f7-3db5-8dd6", "hidden": false, "primary": true, "targetId": "453a-509d-5f60-19d4"},
+          {"name": "[Psi. Hero . Lv. Up]", "id": "3675-88b4-b158-f3c7", "hidden": false, "primary": false, "targetId": "1c26-2e7c-0d62-53bf"},
+          {"name": "[Hero. Lv. Up]", "id": "039d-2935-8f66-765a", "hidden": false, "primary": false, "targetId": "4d4f-5d8c-eed7-0803"},
+          {"name": "[Punk]", "id": "21c3-a643-f358-f6ea", "hidden": false, "primary": false, "targetId": "8c5f-b845-d880-c7bb"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 20}],
+        "profiles": [
+          {
+            "name": "Punk",
+            "id": "9f11-57c5-f2d3-e173",
+            "hidden": false,
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+0", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+0", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+0", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+0", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+0", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "1", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Model Options]",
+            "id": "08b5-898d-8f8b-bc4a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "< [May be purchased up to 75 Credits of:]",
+                "id": "b321-fe1d-5de4-865f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "7642-5acc-3a76-7f73",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "623e-ec6f-d438-32d6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "de83-195b-0286-aceb",
+                    "field": "Credits",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 75
+                  }
+                ],
+                "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "< Weapons, Armour and Equipment >",
+                    "id": "18ea-ee8b-dac0-d2b9",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c7b-1fe8-9efa-1ada",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "< May be purchased up to 125 Credits of: >",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "23ed-44b0-f337-8f6d",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d658-0ad9-6e15-958e",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "field": "de83-195b-0286-aceb",
+                        "type": "increment",
+                        "value": 50,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "23ed-44b0-f337-8f6d",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d658-0ad9-6e15-958e",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "< [Upgrade to level 1 Hero]",
+                "id": "560c-0b73-e6ae-4bd7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "entryLinks": [
+                  {
+                    "name": "< Hero Leveling >",
+                    "id": "b687-7104-3fc9-5fa5",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "cbb2-26f6-741b-8b9c",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

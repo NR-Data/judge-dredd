@@ -1,0 +1,1098 @@
+{
+  "catalogue": {
+    "name": "The Citi-Def (MP2014)",
+    "id": "1970-6ae0-db0b-35fc",
+    "authorName": "Vescarea",
+    "authorUrl": "https://github.com/BSData/judge-dredd",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "b6bc-5996-1c4c-957c",
+    "gameSystemRevision": 3,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Citi-Def Medtech",
+        "id": "64a4-d4d6-0cd0-6cda",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5da1-6483-84df-0848",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Citi-Def Officer",
+        "id": "3dee-f1fd-bb1f-50d1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3426-03ad-9d6d-b796",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Citi-Def Soldier",
+        "id": "58f2-f74c-c24e-2ac8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d758-4e6e-1985-675c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Jaeger Squad Commando",
+        "id": "7701-23b6-aaab-ab90",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1cd1-b1bf-775a-ebd4",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Citi-Def Officer",
+        "id": "3426-03ad-9d6d-b796",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "3a6f-4c70-a6e5-53a2", "hidden": false, "primary": true, "targetId": "c247-c866-3c19-ef70"},
+          {"name": "[Hero]", "id": "eaaa-2c87-91d5-acdb", "hidden": false, "primary": false, "targetId": "190b-65e3-d23a-1371"},
+          {"name": "[Citi-Def Officer]", "id": "6337-fc82-8969-07e7", "hidden": false, "primary": false, "targetId": "5bf4-1512-d988-b6ab"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 95}],
+        "entryLinks": [
+          {
+            "name": ">[Hero]",
+            "id": "bdd3-9654-a109-1b3c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6dc9-6556-f642-6c0e",
+            "type": "selectionEntry"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "CD Officer ",
+            "id": "a89b-6d17-a021-aea8",
+            "hidden": false,
+            "rules": [
+              {
+                "name": "Rallying Cry",
+                "id": "60d2-f130-3e84-ce83",
+                "description": "So long as the officer is still on the table, all failed Will to Fight checks for all friendly models may be re-rolled.",
+                "hidden": false,
+                "page": 51,
+                "publicationId": "58d6-eaa3-c92f-a34a"
+              },
+              {
+                "name": "True Leader",
+                "id": "e363-8b12-e5e9-11bf",
+                "description": "Everyone in the Citi-Def unitlooks up to the officer, trusting him to see them through the worst fire fights. Any friendly model within 15\" and in line of sight of the officer may use his Will score instead of their own for any Will check, including Arrest checks.",
+                "hidden": false,
+                "page": 51,
+                "publicationId": "58d6-eaa3-c92f-a34a"
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Citi-Def Officer",
+            "id": "8780-94df-127d-b3fa",
+            "hidden": false,
+            "page": 51,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+0", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+1", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+0", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+1", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+5", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "2", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Shell Jacket",
+            "id": "68d0-2807-c92a-8fb8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "4286-87b7-1350-3f52",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "546f-84ba-807d-4d8e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "Shell Jacket",
+                "id": "4008-e53d-58f0-e071",
+                "hidden": false,
+                "typeId": "c941-e5bc-0796-536b",
+                "typeName": "<2 Armour",
+                "characteristics": [{"name": "Save", "$text": "+5", "typeId": "0dc2-16f5-65da-00c6"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Options]",
+            "id": "5b41-67b6-3c59-6344",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntryGroups": [
+              {
+                "name": "2 < [May be purchased up to 100 Credits of:]",
+                "id": "44b2-10ce-5889-2e7c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "e218-47b7-603c-149a",
+                    "field": "Credits",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 100
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "< [Weapons, Armour and Equipment]",
+                    "id": "ffa6-be0b-d2ed-d730",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c7b-1fe8-9efa-1ada",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              },
+              {
+                "name": "1 < [Base]",
+                "id": "33c1-c44c-e125-b574",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "selectionEntryGroups": [
+                  {
+                    "name": "< Swap Spit Pistol for Spit gun >",
+                    "id": "769a-b6c7-8d27-dc48",
+                    "collective": false,
+                    "defaultSelectionEntryId": "73c3-1cc1-6c24-23c0",
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "31a3-5385-fd29-7522",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "1ab6-ed7d-ac45-0fd7",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Spit Pistol",
+                        "id": "73c3-1cc1-6c24-23c0",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                        "profiles": [
+                          {
+                            "name": "Spit Pistol",
+                            "id": "55a3-6c18-607c-2287",
+                            "hidden": false,
+                            "typeId": "f710-4d70-dec4-3119",
+                            "typeName": "<3 Ranged Weapon",
+                            "characteristics": [
+                              {"name": "Range", "$text": "18\"", "typeId": "6e78-9c5a-8f66-4385"},
+                              {"name": "Shooting Dice", "$text": "3D", "typeId": "9238-487e-59dd-aa41"},
+                              {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                              {"name": "AP", "$text": "-1", "typeId": "e7a8-6695-e9a9-4586"},
+                              {"name": "Special Rules", "$text": "-", "typeId": "4d88-9af9-9bb8-7988"}
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Spit Gun",
+                        "id": "637c-f58a-0fab-5ce7",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 30}],
+                        "profiles": [
+                          {
+                            "name": "Spit Gun",
+                            "id": "65e4-aa03-14f1-6a49",
+                            "hidden": false,
+                            "typeId": "f710-4d70-dec4-3119",
+                            "typeName": "<3 Ranged Weapon",
+                            "characteristics": [
+                              {"name": "Range", "$text": "20\"", "typeId": "6e78-9c5a-8f66-4385"},
+                              {"name": "Shooting Dice", "$text": "3D", "typeId": "9238-487e-59dd-aa41"},
+                              {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                              {"name": "AP", "$text": "-2", "typeId": "e7a8-6695-e9a9-4586"},
+                              {"name": "Special Rules", "$text": "-", "typeId": "4d88-9af9-9bb8-7988"}
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Citi-Def Medtech",
+        "id": "5da1-6483-84df-0848",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "95f9-fffe-08ff-0da6", "hidden": false, "primary": true, "targetId": "453a-509d-5f60-19d4"},
+          {"name": "[Min. Lv. Up]", "id": "7ee3-d516-b0f1-ce61", "hidden": false, "primary": false, "targetId": "4d4f-5d8c-eed7-0803"},
+          {"name": "[Citi-Def Medtech]", "id": "5e69-b75e-724b-d986", "hidden": false, "primary": false, "targetId": "7e67-8785-c779-609c"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 80}],
+        "profiles": [
+          {
+            "name": "Citi-Def Medtech",
+            "id": "e56e-2264-46bb-4106",
+            "hidden": false,
+            "page": 51,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+2", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+0", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+0", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+0", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+4", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "1", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Lifesaver",
+            "id": "cc4f-8e49-0a3b-8c42",
+            "description": "The Citi-Def Medtech is always assumed to have taken one extra Special action in its last turn when using a Medi-kit (so he will always count as having taken at least one).",
+            "hidden": false,
+            "page": 51,
+            "publicationId": "58d6-eaa3-c92f-a34a"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Handgun",
+            "id": "4367-cef9-ccfd-5a0f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "fe96-2c52-2920-da35",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "5f34-71e9-c807-6bfc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "Handgun",
+                "id": "f3a3-13b1-f18b-2795",
+                "hidden": false,
+                "typeId": "f710-4d70-dec4-3119",
+                "typeName": "<3 Ranged Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "15\"", "typeId": "6e78-9c5a-8f66-4385"},
+                  {"name": "Shooting Dice", "$text": "1D", "typeId": "9238-487e-59dd-aa41"},
+                  {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                  {"name": "AP", "$text": "-", "typeId": "e7a8-6695-e9a9-4586"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "4d88-9af9-9bb8-7988"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Medi-kit",
+            "id": "3c5c-8076-8a83-6b07",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "2fec-3dd7-aac1-c9cc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9fa3-1fc0-dc21-5746",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "rules": [
+              {
+                "name": "Medi-kit",
+                "id": "a4c7-53ec-8e6c-81bc",
+                "description": "A model with a medi-kit may attempt to resuscitate one other model that loses its last Hit for every Special action it has taken in its last Phase. If a model is killed within a range equal to the Move score of the medi-kit carrier, you may move the medic to the model’s side and make an Agility check. If successful, the ‘dead’ model is immediately returned to its feet with a single Hit and may carry on taking actions in its next Phase. Medi-Kits may not be used on robots, zombies, demons, or aliens.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Pad Armour",
+            "id": "1ffa-869b-25b1-0c0a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "a1e0-eab2-7d6e-d56e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "902a-0f30-5f34-157a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "Pad Armour",
+                "id": "bc30-ac80-e8d9-0e6c",
+                "hidden": false,
+                "typeId": "c941-e5bc-0796-536b",
+                "typeName": "<2 Armour",
+                "characteristics": [{"name": "Save", "$text": "+4", "typeId": "0dc2-16f5-65da-00c6"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Options]",
+            "id": "97c6-18a6-864b-4cd0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntryGroups": [
+              {
+                "name": "1 < [Upgrade to level 1 Hero]",
+                "id": "a0bf-586a-f17e-6c8b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "entryLinks": [
+                  {
+                    "name": "< [Upgrade Minion]",
+                    "id": "0c80-817a-3db0-fa3e",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "cbb2-26f6-741b-8b9c",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              },
+              {
+                "name": "2 < [May be purchased up to 50 Credits of:]",
+                "id": "478b-5669-0e91-49a6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "60ab-c3f5-34ba-43b6",
+                    "field": "Credits",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 50
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "< Weapons, Armour and Equipment >",
+                    "id": "cdef-dfab-200e-d9cf",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c7b-1fe8-9efa-1ada",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Citi-Def Soldier",
+        "id": "d758-4e6e-1985-675c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "5606-0489-780a-6e3c", "hidden": false, "primary": true, "targetId": "453a-509d-5f60-19d4"},
+          {"name": "[Min. Lv. Up]", "id": "e6e2-7182-d7f7-b5dc", "hidden": false, "primary": false, "targetId": "4d4f-5d8c-eed7-0803"},
+          {"name": "[Citi-Def Soldier]", "id": "78fe-3d18-425c-67f1", "hidden": false, "primary": false, "targetId": "ea4a-1cdd-0b24-aaf7"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 100}],
+        "profiles": [
+          {
+            "name": "Citi-Def Soldier",
+            "id": "e41a-d5f8-ebc3-1c26",
+            "hidden": false,
+            "page": 52,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+0", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+1", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+1", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+0", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+5", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "1", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Trigger Happy",
+            "id": "276d-ec58-12ac-01c4",
+            "description": "Whenever a Citi-Def soldier performs a Shoot action, he must make a Will check. If this is failed, his next action must also be a Shoot action unless an enemy engages him in Close Combat before this action can be taken. If no enemy model is in sight, he will attack the closest target, be it friend, foe or an innocent bystander!",
+            "hidden": false,
+            "page": 52,
+            "publicationId": "58d6-eaa3-c92f-a34a"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Shell Jacket",
+            "id": "d386-9fd8-324a-4deb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "01d3-fe9d-e193-6c2e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "dac6-80c7-a8e4-70f3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "Shell Jacket",
+                "id": "7699-3013-3e36-bc2f",
+                "hidden": false,
+                "typeId": "c941-e5bc-0796-536b",
+                "typeName": "<2 Armour",
+                "characteristics": [{"name": "Save", "$text": "+5", "typeId": "0dc2-16f5-65da-00c6"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Model Options]",
+            "id": "ab56-62ca-1636-cc10",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntryGroups": [
+              {
+                "name": "3 < [May be purchased up to 50 Credits of:]",
+                "id": "14f5-0700-9bbe-a7c7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "84dc-4a57-d038-d5f6",
+                    "field": "Credits",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 50
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "< [Weapons, Armour and Equipment]",
+                    "id": "5be3-eb50-4a0c-dc9f",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c7b-1fe8-9efa-1ada",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              },
+              {
+                "name": "1 < [Base]",
+                "id": "40ed-19ee-d819-c79a",
+                "collective": false,
+                "defaultSelectionEntryId": "08b8-7e52-628e-1147",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "cbfa-2aef-d8b7-f37d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Spit Pistol (x2) + Dual Shooter Talent",
+                    "id": "6583-f223-b4ae-00d5",
+                    "collective": false,
+                    "hidden": true,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "a7cf-d032-8214-162b",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": " Credits", "typeId": "Credits", "value": 25}],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditions": [
+                          {
+                            "childId": "23ed-44b0-f337-8f6d",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "d758-4e6e-1985-675c",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Spit Pistol(s)",
+                        "id": "e570-3523-ca5e-cdc3",
+                        "hidden": false,
+                        "page": 98,
+                        "publicationId": "58d6-eaa3-c92f-a34a",
+                        "typeId": "f710-4d70-dec4-3119",
+                        "typeName": "<3 Ranged Weapon",
+                        "characteristics": [
+                          {"name": "Range", "$text": "18\"", "typeId": "6e78-9c5a-8f66-4385"},
+                          {"name": "Shooting Dice", "$text": "3D", "typeId": "9238-487e-59dd-aa41"},
+                          {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                          {"name": "AP", "$text": "-1", "typeId": "e7a8-6695-e9a9-4586"},
+                          {"name": "Special Rules", "$text": "-", "typeId": "4d88-9af9-9bb8-7988"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Spit Gun",
+                    "id": "08b8-7e52-628e-1147",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "0354-4d5c-48b1-bcc8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                    "profiles": [
+                      {
+                        "name": "Spit Gun",
+                        "id": "ba9c-0691-2229-c3e7",
+                        "hidden": false,
+                        "page": 98,
+                        "publicationId": "58d6-eaa3-c92f-a34a",
+                        "typeId": "f710-4d70-dec4-3119",
+                        "typeName": "<3 Ranged Weapon",
+                        "characteristics": [
+                          {"name": "Range", "$text": "20\"", "typeId": "6e78-9c5a-8f66-4385"},
+                          {"name": "Shooting Dice", "$text": "3D", "typeId": "9238-487e-59dd-aa41"},
+                          {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                          {"name": "AP", "$text": "-2", "typeId": "e7a8-6695-e9a9-4586"},
+                          {"name": "Special Rules", "$text": "-", "typeId": "4d88-9af9-9bb8-7988"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "2 < [Upgrade to level 1 Hero]",
+                "id": "6e37-2f90-a7bb-65dd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "entryLinks": [
+                  {
+                    "name": "< [Upgrade Minion]",
+                    "id": "ed14-6704-f3c0-d082",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "cbb2-26f6-741b-8b9c",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jaeger Squad Commando",
+        "id": "1cd1-b1bf-775a-ebd4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9f4e-c403-89f0-134b", "hidden": false, "primary": true, "targetId": "c247-c866-3c19-ef70"},
+          {"name": "[Hero]", "id": "2568-800e-463f-8293", "hidden": false, "primary": false, "targetId": "190b-65e3-d23a-1371"},
+          {"name": "[Jeager Squad Commando]", "id": "3371-2f54-6c54-bf0e", "hidden": false, "primary": false, "targetId": "7164-a7a4-517f-dd32"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 175}],
+        "entryLinks": [
+          {
+            "name": ">[Hero]",
+            "id": "3c11-28af-9d75-3e72",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6dc9-6556-f642-6c0e",
+            "type": "selectionEntry"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Jaeger Squad Commando",
+            "id": "9a6d-b92e-c3e2-e625",
+            "hidden": false,
+            "page": 52,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+1", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+1", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+1", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "3D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+1", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+5", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "2", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Going Commando",
+            "id": "b4d5-bf0c-1eae-0e84",
+            "description": "Using a combination of sucker guns, rappelling lines and para-gliders, the Jeager Squad Commando can appear anywhere unexpected. The Commando counts as if he is equipped with a sucker gun and can also drop down a sheer surface up to 12\" with a single Special action.",
+            "hidden": false,
+            "page": 52,
+            "publicationId": "58d6-eaa3-c92f-a34a"
+          },
+          {
+            "name": "Silent but Violent",
+            "id": "6074-5287-a8e5-023a",
+            "description": "The Jeager Squad Commando has the Stealthy as a free Talent.",
+            "hidden": false,
+            "page": 52,
+            "publicationId": "58d6-eaa3-c92f-a34a"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Shell Jacket",
+            "id": "3dae-c96a-37f3-c21d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "16c2-8dce-e997-80d7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7bbc-11a5-13ae-1bfa",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "Shell Jacket",
+                "id": "e190-166f-5873-1ffb",
+                "hidden": false,
+                "typeId": "c941-e5bc-0796-536b",
+                "typeName": "<2 Armour",
+                "characteristics": [{"name": "Save", "$text": "+5", "typeId": "0dc2-16f5-65da-00c6"}]
+              }
+            ]
+          },
+          {
+            "name": "Respirator",
+            "id": "5ada-04ec-7e6b-172f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9cf3-8ba0-5007-5195",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "0068-d0e0-c91e-a4db",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "rules": [
+              {
+                "name": "Respirator",
+                "id": "bb42-f3ba-d92b-9816",
+                "description": "A respirator renders a model immune from weapons with the Gas special rule. However it does not function against riot foam.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Knife",
+            "id": "9272-0572-cdb9-2149",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e116-ec74-f66d-b6c8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "819d-90be-13a4-6775",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "Knife",
+                "id": "0b04-60f7-0715-71b1",
+                "hidden": false,
+                "typeId": "80d2-e41e-4294-6fca",
+                "typeName": "<2 Close Combat Weapon",
+                "characteristics": [
+                  {"name": "Damage", "$text": "1", "typeId": "d7ee-8740-c2fc-b939"},
+                  {"name": "AP", "$text": "-1", "typeId": "8b7a-b403-bfd7-0446"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "187d-a926-b5f3-956d"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Spit Pistol",
+            "id": "c480-343d-4ce6-f80d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "d995-0063-c6c7-e890",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "ab4c-0abf-0ce5-ddbd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "Spit Pistol",
+                "id": "f8bb-79e0-5975-c134",
+                "hidden": false,
+                "typeId": "f710-4d70-dec4-3119",
+                "typeName": "<3 Ranged Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "6e78-9c5a-8f66-4385"},
+                  {"name": "Shooting Dice", "$text": "3D", "typeId": "9238-487e-59dd-aa41"},
+                  {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                  {"name": "AP", "$text": "-1", "typeId": "e7a8-6695-e9a9-4586"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "4d88-9af9-9bb8-7988"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[May be purchased up to 100 Credits of:]",
+            "id": "9c7a-2c80-42c1-27ad",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2312-67ea-a9d8-bc71",
+                "field": "Credits",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 100
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "< Weapons, Armour and Equipment >",
+                "id": "0344-729c-9cf9-d5e4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9c7b-1fe8-9efa-1ada",
+                "type": "selectionEntryGroup"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

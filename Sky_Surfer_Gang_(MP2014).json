@@ -1,0 +1,335 @@
+{
+  "catalogue": {
+    "name": "Sky Surfer Gang (MP2014)",
+    "id": "6718-62df-fbb4-c575",
+    "authorName": "Vescarea",
+    "authorUrl": "https://github.com/BSData/judge-dredd",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "b6bc-5996-1c4c-957c",
+    "gameSystemRevision": 3,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Sky Surfer Icon",
+        "id": "864f-59e4-3785-0496",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "94e4-be13-ce9f-a3eb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sky Surfer Juve",
+        "id": "c46c-c1a0-456f-2a77",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d5d8-541a-45a3-e154",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Sky Surfer Juve",
+        "id": "d5d8-541a-45a3-e154",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "2< Flyer Minion", "id": "ea97-64bb-01b2-db97", "hidden": false, "primary": true, "targetId": "0754-7c40-11d2-254b"},
+          {"name": "[Sky Surfer Juve]", "id": "a6dd-ec4a-b33b-7c18", "hidden": false, "primary": false, "targetId": "b3ba-38a2-298e-4b77"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 60}],
+        "profiles": [
+          {
+            "name": "Sky Surfer Juve",
+            "id": "b531-159a-2dea-982a",
+            "hidden": false,
+            "page": 72,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+1", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "-1", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "-1", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+0", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+0", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "1", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Power Board",
+            "id": "03a8-7b09-f44c-9784",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "2348-c784-d215-47fa",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "ee2b-fc49-11de-a704",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 75}],
+            "rules": [
+              {
+                "name": "Power Board",
+                "id": "e799-6045-7880-65ad",
+                "description": "A model with a power board has a Move of 20”, becomes a Flyer and gains a +1 bonus to Agility. A power boarding model may only use grenades or pistol weapons, and may never dual wield them. It may also never perform a Melee action, though it may still be attacked by other models in close combat.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Model Options]",
+            "id": "8538-db60-90a3-5169",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "< [May be purchased up to 25 Credits of:]",
+                "id": "8e9c-14ff-f9d8-9d40",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "9147-7199-fcb0-0d66",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "d9ef-8418-96f6-09c4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9ccd-9244-d461-3b1a",
+                    "field": "Credits",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 25
+                  }
+                ],
+                "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "< [Weapons, Armour and Equipment]",
+                    "id": "f421-4167-ab01-e1ce",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c7b-1fe8-9efa-1ada",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sky Surfer Icon",
+        "id": "94e4-be13-ce9f-a3eb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9dbd-76b2-a65c-6a8b", "hidden": false, "primary": true, "targetId": "9520-30d3-a8bf-f53d"},
+          {"name": "[Sky Surfer Icon]", "id": "c2b7-1621-a6ac-22d3", "hidden": false, "primary": false, "targetId": "21a7-1914-ae74-b0a6"},
+          {"name": "[Hero]", "id": "26ef-38fb-6e84-45b6", "hidden": false, "primary": false, "targetId": "190b-65e3-d23a-1371"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 125}],
+        "entryLinks": [
+          {
+            "name": ">[Hero]",
+            "id": "09b7-497e-99cb-1ef0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6dc9-6556-f642-6c0e",
+            "type": "selectionEntry"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sky Surfer Icon",
+            "id": "0524-0cf7-4691-0df2",
+            "hidden": false,
+            "page": 72,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+1", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+0", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+0", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+1", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+0", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "2", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Power Board",
+            "id": "a84b-3e0d-04bd-fd43",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c448-3ea0-e18d-b4c2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "af2a-da5b-6f76-59ad",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 75}],
+            "rules": [
+              {
+                "name": "Power Board",
+                "id": "9c13-da90-f60b-ea8c",
+                "description": "A model with a power board has a Move of 20”, becomes a Flyer and gains a +1 bonus to Agility. A power boarding model may only use grenades or pistol weapons, and may never dual wield them. It may also never perform a Melee action, though it may still be attacked by other models in close combat.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Model Options]",
+            "id": "befa-53fd-8ebc-983a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "< [May be purchased up to 50 Credits of:]",
+                "id": "157d-6a77-daea-f16e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "15f4-ebec-8922-70ad",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "a834-05ac-107f-abba",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "4088-612c-c86f-e6fa",
+                    "field": "Credits",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 50
+                  }
+                ],
+                "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "< Weapons, Armour and Equipment >",
+                    "id": "5a9b-2f33-a598-b062",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c7b-1fe8-9efa-1ada",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

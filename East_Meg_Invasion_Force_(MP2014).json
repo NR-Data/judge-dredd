@@ -1,0 +1,923 @@
+{
+  "catalogue": {
+    "name": "East Meg Invasion Force (MP2014)",
+    "id": "5176-d844-2f23-c9a7",
+    "authorName": "Vescarea",
+    "authorUrl": "https://github.com/BSData/judge-dredd",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "b6bc-5996-1c4c-957c",
+    "gameSystemRevision": 3,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Agent",
+        "id": "11c0-e445-663f-e530",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9865-7c73-cded-0991",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sentenoid",
+        "id": "4e93-9e0d-60fc-6e0a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "eaf9-8294-966b-d8e8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "East Meg Officer",
+        "id": "f28c-e70e-dc1f-da98",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5fb0-54f9-85bf-1098",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "East Meg Judge",
+        "id": "89f9-f242-0f12-3424",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "766c-e809-68e7-7e66",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Agent",
+        "id": "9865-7c73-cded-0991",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "58d6-eaa3-c92f-a34a",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8183-32ed-37db-71d4", "hidden": false, "primary": true, "targetId": "80a9-1440-951f-0bcc"},
+          {"name": "[Agent]", "id": "daa4-190e-d8c9-3010", "hidden": false, "primary": false, "targetId": "da5e-9d2f-ce0f-549d"},
+          {"name": "[Hero]", "id": "b87a-0d72-5261-8833", "hidden": false, "primary": false, "targetId": "190b-65e3-d23a-1371"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 95}],
+        "entryLinks": [
+          {
+            "name": ">[Hero]",
+            "id": "da70-9d0a-1e88-4b71",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6dc9-6556-f642-6c0e",
+            "type": "selectionEntry"
+          }
+        ],
+        "rules": [
+          {
+            "name": "Super Secret Agent Man",
+            "id": "3910-9138-8559-75b0",
+            "description": "The Agent has the Infiltrator Talent for free. He does not require the Stealthy Talent in order to use it.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Handgun",
+            "id": "d9c0-5f35-59a6-a716",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "d755-2998-2433-fc0a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "e793-6198-c671-d157",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+          },
+          {
+            "name": "Knife",
+            "id": "2e93-867e-4456-08f3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "218f-afbb-b1f5-4536",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4505-00d0-b432-5889",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Base Options]",
+            "id": "7e8f-0708-eda7-11f1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntryGroups": [
+              {
+                "name": "< [May take]",
+                "id": "33b9-5d9b-34de-a387",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "selectionEntryGroups": [
+                  {
+                    "name": "[Shields]",
+                    "id": "360e-3f8c-09e9-3e14",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "8424-e739-c784-4e0b",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Energy Shield",
+                        "id": "605d-d1dc-b281-6deb",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "8979-fbce-96c3-6504",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                        "rules": [
+                          {
+                            "name": "Energy Shield",
+                            "id": "8b71-143a-9a3f-3317",
+                            "description": "The energy shield functions as normal armour, but will only absorb a total of 10 Hits of damage. Once 10 Hits have been absorbed by the shield (by making its Armour rolls), it will instantly wink out of existence, with any remaining damage being applied to the wearer’s own Hits. The energy shield can be worn with other armour, but only one of them can be used against any one attack.",
+                            "hidden": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "[Satellat]",
+                    "id": "a466-cbbf-e5df-b633",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "selectionEntries": [
+                      {
+                        "name": "Satellat",
+                        "id": "43d1-af22-e280-1e1b",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+                      },
+                      {
+                        "name": "Heavy Satellat",
+                        "id": "407d-198b-1602-4df7",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Meg Officer",
+        "id": "5fb0-54f9-85bf-1098",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "58d6-eaa3-c92f-a34a",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "1< Ill. Inf. Hero", "id": "6a8e-4f5e-9227-ee3a", "hidden": false, "primary": true, "targetId": "80a9-1440-951f-0bcc"},
+          {"name": "[East Meg Officer]", "id": "3305-d75f-ac69-a4e5", "hidden": false, "primary": false, "targetId": "ce03-a028-cfb3-45a6"},
+          {"name": "[Judge Hero]", "id": "c069-5a5b-c6a1-a87f", "hidden": false, "primary": false, "targetId": "cbec-7d08-dc24-9f86"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 100}],
+        "entryLinks": [
+          {
+            "name": "< East Meg Officer Standard Equipment >",
+            "id": "c3f7-e69f-79bf-99dd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a67a-3905-fbdf-f9bb",
+            "type": "selectionEntry"
+          }
+        ],
+        "rules": [
+          {
+            "name": "Never Retreat!",
+            "id": "80f4-05ac-cd61-bd3a",
+            "description": "If a friendly model within 12\" of the East Meg Officer fails a Will to Fight check, it may re-roll the result. If it fails this too, the East Meg Officer will execute the retreating model immediately. Roll on the injury table for this model, but add +6 to the result.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Base Options]",
+            "id": "8277-eb3a-84af-d351",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntryGroups": [
+              {
+                "name": "< [May take]",
+                "id": "4833-4c69-cca3-71a0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "selectionEntryGroups": [
+                  {
+                    "name": "[Shields]",
+                    "id": "7240-5332-5f1d-922d",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "d10e-9c1e-274d-1e1a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Energy Shield",
+                        "id": "83f8-f7cc-2a41-e60f",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "4ceb-5823-c59a-136e",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                        "rules": [
+                          {
+                            "name": "Energy Shield",
+                            "id": "e81e-3b47-a2a5-f923",
+                            "description": "The energy shield functions as normal armour, but will only absorb a total of 10 Hits of damage. Once 10 Hits have been absorbed by the shield (by making its Armour rolls), it will instantly wink out of existence, with any remaining damage being applied to the wearer’s own Hits. The energy shield can be worn with other armour, but only one of them can be used against any one attack.",
+                            "hidden": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "[Satellat]",
+                    "id": "f718-b47b-949f-0633",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "selectionEntries": [
+                      {
+                        "name": "Satellat",
+                        "id": "f9b0-9eb7-1ce4-4394",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+                      },
+                      {
+                        "name": "Heavy Satellat",
+                        "id": "897c-0806-b95e-6b6d",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Meg Judge",
+        "id": "766c-e809-68e7-7e66",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "publicationId": "58d6-eaa3-c92f-a34a",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "12af-f4f7-d597-e6a3", "hidden": false, "primary": true, "targetId": "a2c6-638e-1643-ceaa"},
+          {"name": "[East Meg Judge]", "id": "91a5-3b51-8534-f06d", "hidden": false, "primary": false, "targetId": "ed23-a23b-4f89-cf93"},
+          {"name": "[Min. Upg]", "id": "47c7-e156-1084-bad1", "hidden": false, "primary": false, "targetId": "4d4f-5d8c-eed7-0803"},
+          {"name": "[Psi. Min. Upg]", "id": "cc2a-af95-42cb-8244", "hidden": false, "primary": false, "targetId": "1c26-2e7c-0d62-53bf"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 95}],
+        "entryLinks": [
+          {
+            "name": "< East Meg Judge Standard Equipment >",
+            "id": "fda9-2658-0cd9-28cd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2cfe-fafd-dcde-8b2e",
+            "type": "selectionEntry"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Base Options]",
+            "id": "8bf8-1fb7-623c-865c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntryGroups": [
+              {
+                "name": "2 < [May take]",
+                "id": "6da6-50c8-616c-7ebf",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "XP",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "766c-e809-68e7-7e66",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 11
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "[Shields]",
+                    "id": "b9e5-5a3d-0110-4d77",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "d0a4-5472-b147-2566",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Energy Shield",
+                        "id": "ba26-7023-6977-1332",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "ebb8-1848-5a66-4f6d",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                        "rules": [
+                          {
+                            "name": "Energy Shield",
+                            "id": "f2a9-8b45-181b-a8cf",
+                            "description": "The energy shield functions as normal armour, but will only absorb a total of 10 Hits of damage. Once 10 Hits have been absorbed by the shield (by making its Armour rolls), it will instantly wink out of existence, with any remaining damage being applied to the wearer’s own Hits. The energy shield can be worn with other armour, but only one of them can be used against any one attack.",
+                            "hidden": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "[Satellat]",
+                    "id": "86be-7449-d990-bd9a",
+                    "collective": false,
+                    "hidden": true,
+                    "import": true,
+                    "selectionEntries": [
+                      {
+                        "name": "Satellat",
+                        "id": "94d3-db73-7cd3-2357",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+                      },
+                      {
+                        "name": "Heavy Satellat",
+                        "id": "45a1-a959-f3e2-11da",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "1 < [Weapon options]",
+                "id": "48c8-a802-091c-653d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b5b9-4b9f-2068-37d3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "ad3d-1188-07e8-7bc7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Krashnikov 99 Sidearm",
+                    "id": "eb50-1fa0-cf0d-ca08",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                    "profiles": [
+                      {
+                        "name": ">Krashnikov 99 Sidearm",
+                        "id": "9bdf-3a1f-68b5-a3d0",
+                        "hidden": false,
+                        "typeId": "2398-f308-475c-f428",
+                        "typeName": "<4 Krashnikov 99 Sidearm",
+                        "characteristics": [
+                          {"name": "Range", "$text": "15\"", "typeId": "e1ee-8eee-eb85-646c"},
+                          {"name": "Shooting Dice", "$text": "-", "typeId": "a6a3-122b-eee6-404d"},
+                          {"name": "Damage", "$text": "-", "typeId": "2dfd-dfac-bbcf-9d82"},
+                          {"name": "AP", "$text": "-", "typeId": "f8b3-ccb8-b36b-4825"},
+                          {"name": "Special Rules", "$text": "-", "typeId": "666f-d8b5-be02-7301"}
+                        ]
+                      },
+                      {
+                        "name": "Energy Pulse",
+                        "id": "ca8c-9dc6-fb9b-1b99",
+                        "hidden": false,
+                        "typeId": "2398-f308-475c-f428",
+                        "typeName": "<4 Krashnikov 99 Sidearm",
+                        "characteristics": [
+                          {"name": "Range", "$text": "-", "typeId": "e1ee-8eee-eb85-646c"},
+                          {"name": "Shooting Dice", "$text": "2D", "typeId": "a6a3-122b-eee6-404d"},
+                          {"name": "Damage", "$text": "2", "typeId": "2dfd-dfac-bbcf-9d82"},
+                          {"name": "AP", "$text": "-3", "typeId": "f8b3-ccb8-b36b-4825"},
+                          {"name": "Special Rules", "$text": "Complex", "typeId": "666f-d8b5-be02-7301"}
+                        ]
+                      },
+                      {
+                        "name": "Standard Execution",
+                        "id": "873d-d110-cf64-dbf5",
+                        "hidden": false,
+                        "typeId": "2398-f308-475c-f428",
+                        "typeName": "<4 Krashnikov 99 Sidearm",
+                        "characteristics": [
+                          {"name": "Range", "$text": "-", "typeId": "e1ee-8eee-eb85-646c"},
+                          {"name": "Shooting Dice", "$text": "3D", "typeId": "a6a3-122b-eee6-404d"},
+                          {"name": "Damage", "$text": "2", "typeId": "2dfd-dfac-bbcf-9d82"},
+                          {"name": "AP", "$text": "-1", "typeId": "f8b3-ccb8-b36b-4825"},
+                          {"name": "Special Rules", "$text": "-", "typeId": "666f-d8b5-be02-7301"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Krashnikov 97 carbine",
+                    "id": "843f-d44f-cae6-ccd7",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                    "profiles": [
+                      {
+                        "name": ">Krashnikov 97 Carbine",
+                        "id": "484d-06f0-3d5e-cc8d",
+                        "hidden": false,
+                        "typeId": "fffe-a4da-e728-4945",
+                        "typeName": "<4 Krashnikov 97 Carbine",
+                        "characteristics": [
+                          {"name": "Range", "$text": "24\"", "typeId": "e22e-76de-da95-3ba9"},
+                          {"name": "Shooting Dice", "$text": "-", "typeId": "150c-c994-1413-7369"},
+                          {"name": "Damage", "$text": "-", "typeId": "a384-8572-759f-4c0e"},
+                          {"name": "AP", "$text": "-", "typeId": "048c-faac-a8e2-937d"},
+                          {"name": "Special Rules", "$text": "-", "typeId": "f4ba-c03e-b6f7-21a1"}
+                        ]
+                      },
+                      {
+                        "name": "Energy Pulse",
+                        "id": "a44c-abcd-e752-9731",
+                        "hidden": false,
+                        "typeId": "fffe-a4da-e728-4945",
+                        "typeName": "<4 Krashnikov 97 Carbine",
+                        "characteristics": [
+                          {"name": "Range", "$text": "-", "typeId": "e22e-76de-da95-3ba9"},
+                          {"name": "Shooting Dice", "$text": "2D", "typeId": "150c-c994-1413-7369"},
+                          {"name": "Damage", "$text": "2", "typeId": "a384-8572-759f-4c0e"},
+                          {"name": "AP", "$text": "-4", "typeId": "048c-faac-a8e2-937d"},
+                          {"name": "Special Rules", "$text": "Complex", "typeId": "f4ba-c03e-b6f7-21a1"}
+                        ]
+                      },
+                      {
+                        "name": "Standard Execution",
+                        "id": "9ad3-bf81-d40c-b823",
+                        "hidden": false,
+                        "typeId": "fffe-a4da-e728-4945",
+                        "typeName": "<4 Krashnikov 97 Carbine",
+                        "characteristics": [
+                          {"name": "Range", "$text": "-", "typeId": "e22e-76de-da95-3ba9"},
+                          {"name": "Shooting Dice", "$text": "4D", "typeId": "150c-c994-1413-7369"},
+                          {"name": "Damage", "$text": "2", "typeId": "a384-8572-759f-4c0e"},
+                          {"name": "AP", "$text": "-1", "typeId": "048c-faac-a8e2-937d"},
+                          {"name": "Special Rules", "$text": "-", "typeId": "f4ba-c03e-b6f7-21a1"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Flamethrower",
+                    "id": "4ca2-26ac-f15f-4b42",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "5958-6ee8-83b9-1937",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+                    "infoLinks": [
+                      {"name": "Fire", "id": "428a-7011-f55b-8c7f", "hidden": false, "targetId": "18fd-a5af-bc8e-ffd1", "type": "rule"},
+                      {"name": "Spray", "id": "5525-b59c-1b24-603b", "hidden": false, "targetId": "3982-db5b-c6b4-b418", "type": "rule"}
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Flamethrower",
+                        "id": "dd06-106f-9fe5-d1ff",
+                        "hidden": false,
+                        "typeId": "f710-4d70-dec4-3119",
+                        "typeName": "<3 Ranged Weapon",
+                        "characteristics": [
+                          {"name": "Range", "$text": "8\"", "typeId": "6e78-9c5a-8f66-4385"},
+                          {"name": "Shooting Dice", "$text": "6D", "typeId": "9238-487e-59dd-aa41"},
+                          {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                          {"name": "AP", "$text": "+0", "typeId": "e7a8-6695-e9a9-4586"},
+                          {"name": "Special Rules", "$text": "Fire, Spray", "typeId": "4d88-9af9-9bb8-7988"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "3 < [Upgrade to level 1 Hero]",
+                "id": "b30e-ca49-a0d1-a900",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "entryLinks": [
+                  {
+                    "name": "< Level Upgrade >",
+                    "id": "33a7-a97c-b4e0-f21e",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "cbb2-26f6-741b-8b9c",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sentenoid",
+        "id": "eaf9-8294-966b-d8e8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 67,
+        "publicationId": "58d6-eaa3-c92f-a34a",
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a0cf-d09d-4e5b-6c0c", "hidden": false, "primary": true, "targetId": "a1d8-ce2d-a3e7-4da8"}],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 275}],
+        "infoGroups": [
+          {
+            "name": "Sentenoid Rules",
+            "id": "bd99-911f-eedc-a7a9",
+            "hidden": false,
+            "rules": [
+              {"name": "Crushing Arms", "id": "8912-9a38-98ec-0743", "description": "In every way, the arms of the Sentenoid are treated like chainsaws.", "hidden": false},
+              {
+                "name": "Eradicate all Resistance!",
+                "id": "b347-f375-66c9-1692",
+                "description": "The twin street cannon mounted in the Sentenoid’s body are always fired together. It rolls 5 Shooting Dice rather than 4, but the Sentenoid’s long range sensors are rather poor, and so the street cannon have a maximum range of 12”.",
+                "hidden": false
+              },
+              {
+                "name": "Telescopic Arms",
+                "id": "92bc-07ab-4c75-c6db",
+                "description": "The Sentenoid can make close combat attacks against a target up to 6” away with a Melee action but cannot benefit from charging if it does so. At the end of this close combat, the two models are not required to take Melee actions again, and the Sentenoid is not moved closer to a pushed back enemy. The target may leave close combat in its turn without any penalties for fleeing.",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Flamethrower",
+            "id": "6d7d-b749-177d-9d41",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "6d82-3156-d5ae-12d3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "fc17-08b8-9eaf-1d45",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "infoLinks": [
+              {"name": "Fire", "id": "eccc-1100-e47a-fbd8", "hidden": false, "targetId": "18fd-a5af-bc8e-ffd1", "type": "rule"},
+              {"name": "Spray", "id": "90f3-c380-4cd9-d991", "hidden": false, "targetId": "3982-db5b-c6b4-b418", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Flamethrower",
+                "id": "7d23-209d-e6d2-400c",
+                "hidden": false,
+                "typeId": "f710-4d70-dec4-3119",
+                "typeName": "<3 Ranged Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "8\"", "typeId": "6e78-9c5a-8f66-4385"},
+                  {"name": "Shooting Dice", "$text": "6D", "typeId": "9238-487e-59dd-aa41"},
+                  {"name": "Damage", "$text": "1", "typeId": "2d89-74ae-96b2-73c4"},
+                  {"name": "AP", "$text": "+0", "typeId": "e7a8-6695-e9a9-4586"},
+                  {"name": "Special Rules", "$text": "Fire, Spray", "typeId": "4d88-9af9-9bb8-7988"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2 Street Cannons",
+            "id": "8b3e-5e38-83d2-a3a0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "089d-8b94-8c82-c2f4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "9306-2c13-1070-8e0f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": "2 Street Cannons",
+                "id": "ca50-3014-910a-aeab",
+                "hidden": false,
+                "typeId": "f710-4d70-dec4-3119",
+                "typeName": "<3 Ranged Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "6e78-9c5a-8f66-4385"},
+                  {"name": "Shooting Dice", "$text": "5D", "typeId": "9238-487e-59dd-aa41"},
+                  {"name": "Damage", "$text": "2", "typeId": "2d89-74ae-96b2-73c4"},
+                  {"name": "AP", "$text": "-3", "typeId": "e7a8-6695-e9a9-4586"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "4d88-9af9-9bb8-7988"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Sentenoid Arms",
+            "id": "80be-9cd7-ab58-d404",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e327-dfbd-ed6a-db1b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "6939-cd2b-58ee-999a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "infoLinks": [{"name": "Smasher", "id": "f330-084c-ceca-7b85", "hidden": false, "targetId": "4d10-13e9-7af1-bf12", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Sentenoid Arms",
+                "id": "0bd2-1134-95a5-8233",
+                "hidden": false,
+                "typeId": "80d2-e41e-4294-6fca",
+                "typeName": "<2 Close Combat Weapon",
+                "characteristics": [
+                  {"name": "Damage", "$text": "2", "typeId": "d7ee-8740-c2fc-b939"},
+                  {"name": "AP", "$text": "-3", "typeId": "8b7a-b403-bfd7-0446"},
+                  {"name": "Special Rules", "$text": "Smasher", "typeId": "187d-a926-b5f3-956d"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

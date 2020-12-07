@@ -1,0 +1,428 @@
+{
+  "catalogue": {
+    "name": "Brit-Cit Justice Department (MP2014)",
+    "id": "d9ed-8342-1554-0dda",
+    "authorName": "Vescarea",
+    "authorUrl": "https://github.com/BSData/judge-dredd",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "b6bc-5996-1c4c-957c",
+    "gameSystemRevision": 3,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Plod Bot ",
+        "id": "9105-d40f-412d-ea50",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1c8e-8bcd-0c8d-a58e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Detective Judge",
+        "id": "7172-3528-b232-b352",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1c8f-6597-5a78-9c79",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Beat Judge",
+        "id": "36e5-3bab-0fed-1847",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5dfb-d38e-4d13-70d5",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Para Squad Judge",
+        "id": "e2f1-1416-0fa8-0aa9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a0af-3ec3-a182-66cc",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Beat Judge",
+        "id": "5dfb-d38e-4d13-70d5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "7d77-d3e4-47d8-117a", "hidden": false, "primary": true, "targetId": "c247-c866-3c19-ef70"},
+          {"name": "[Beat Judge]", "id": "afc2-54b8-9bb0-ad4d", "hidden": false, "primary": false, "targetId": "73fe-a00f-cd26-775d"},
+          {"name": "[Judge Hero]", "id": "bb9f-f1c5-c5b6-c7dd", "hidden": false, "primary": false, "targetId": "cbec-7d08-dc24-9f86"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 140}],
+        "entryLinks": [
+          {
+            "name": ">[Judge Hero]",
+            "id": "f6fc-c297-7552-15dd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d4b8-6141-6269-f49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "< [Brit-Cit Judge Standard Equipment]",
+            "id": "305c-4480-1f64-0e5c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8cf2-2182-02e1-c7ea",
+            "type": "selectionEntry"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Beat Judge",
+            "id": "4881-1361-9610-c954",
+            "hidden": false,
+            "page": 48,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+1", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+1", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+1", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+1", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+5", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "2", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Para Squad Judge",
+        "id": "a0af-3ec3-a182-66cc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ddab-b4b6-4d83-e3eb", "hidden": false, "primary": true, "targetId": "c247-c866-3c19-ef70"},
+          {"name": "[Para Squad Judge]", "id": "3c40-f51a-f0c5-5058", "hidden": false, "primary": false, "targetId": "2501-31e3-b800-a407"},
+          {"name": "[Psi Judge Hero]", "id": "27ac-87f9-8a5e-904d", "hidden": false, "primary": false, "targetId": "29e4-b539-238c-00ae"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 165}],
+        "entryLinks": [
+          {
+            "name": ">[Psi Judge Hero]",
+            "id": "f19e-bf70-d5a9-40ce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5728-a3eb-8325-40ac",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "< Brit-Cit Judge Standard Equipment >",
+            "id": "3b49-3050-9a0f-6617",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8cf2-2182-02e1-c7ea",
+            "type": "selectionEntry"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Para Squad Judge",
+            "id": "eaf8-34de-0cd0-6ec9",
+            "hidden": false,
+            "page": 48,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "6175-c29b-2daa-5fa4",
+            "typeName": "<0 Psi Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "da22-dc43-c4b1-e93b"},
+              {"name": "Agility", "$text": "+1", "typeId": "913c-3b85-1f70-b8db"},
+              {"name": "Shoot", "$text": "+1", "typeId": "d5c6-6a10-20cd-7930"},
+              {"name": "Melee", "$text": "+1", "typeId": "c26e-f408-2718-426c"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "5314-b6b9-7201-7857"},
+              {"name": "Will", "$text": "+1", "typeId": "5603-7d42-0153-2cb2"},
+              {"name": "Armour", "$text": "+5", "typeId": "6ee1-0475-ecbb-bfdd"},
+              {"name": "Hits", "$text": "2", "typeId": "479d-c31a-fc20-8a32"},
+              {"name": "Psi", "$text": "4", "typeId": "1896-6192-d7d2-386e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Detective Judge",
+        "id": "1c8f-6597-5a78-9c79",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1299-7ee5-5950-f96e", "hidden": false, "primary": true, "targetId": "c247-c866-3c19-ef70"},
+          {"name": "[Detective Judge]", "id": "6700-3265-7fac-4af4", "hidden": false, "primary": false, "targetId": "2035-f735-7c9b-95b8"},
+          {"name": "[Judge Hero]", "id": "7407-50ba-9af0-58f6", "hidden": false, "primary": false, "targetId": "cbec-7d08-dc24-9f86"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 160}],
+        "entryLinks": [
+          {
+            "name": ">[Judge Hero]",
+            "id": "b7fb-745b-756d-7e60",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d4b8-6141-6269-f49c",
+            "type": "selectionEntry"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Detective Judge",
+            "id": "fca6-0ec4-d880-5e88",
+            "hidden": false,
+            "page": 48,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+1", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+1", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+1", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+2", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+4", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "3", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "PC 101 Handgun",
+            "id": "8dcc-7685-4c0c-e7a5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "4b2b-6c86-b19c-867f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "15f0-43dc-329c-e3dc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "profiles": [
+              {
+                "name": ">PC 101 Handgun",
+                "id": "619d-cf77-d79c-16c0",
+                "hidden": false,
+                "page": 105,
+                "publicationId": "58d6-eaa3-c92f-a34a",
+                "typeId": "1899-64b0-9042-43ea",
+                "typeName": "<4 PC 101 Handgun",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "1b30-1d83-549d-68a5"},
+                  {"name": "Shooting Dice", "$text": "-", "typeId": "1844-b223-e220-9d08"},
+                  {"name": "Damage", "$text": "-", "typeId": "43ef-1b5a-1ea1-518b"},
+                  {"name": "AP", "$text": "-", "typeId": "e2f6-5fc2-2ff5-6ee6"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "c535-f99c-6c31-28c1"}
+                ]
+              },
+              {
+                "name": "AP",
+                "id": "c4dd-cbb1-cf67-83e0",
+                "hidden": false,
+                "page": 105,
+                "publicationId": "58d6-eaa3-c92f-a34a",
+                "typeId": "1899-64b0-9042-43ea",
+                "typeName": "<4 PC 101 Handgun",
+                "characteristics": [
+                  {"name": "Range", "$text": "-", "typeId": "1b30-1d83-549d-68a5"},
+                  {"name": "Shooting Dice", "$text": "1D", "typeId": "1844-b223-e220-9d08"},
+                  {"name": "Damage", "$text": "1", "typeId": "43ef-1b5a-1ea1-518b"},
+                  {"name": "AP", "$text": "-4", "typeId": "e2f6-5fc2-2ff5-6ee6"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "c535-f99c-6c31-28c1"}
+                ]
+              },
+              {
+                "name": "Standard Execution",
+                "id": "46e0-6c04-ab8a-1410",
+                "hidden": false,
+                "page": 105,
+                "publicationId": "58d6-eaa3-c92f-a34a",
+                "typeId": "1899-64b0-9042-43ea",
+                "typeName": "<4 PC 101 Handgun",
+                "characteristics": [
+                  {"name": "Range", "$text": "-", "typeId": "1b30-1d83-549d-68a5"},
+                  {"name": "Shooting Dice", "$text": "3D", "typeId": "1844-b223-e220-9d08"},
+                  {"name": "Damage", "$text": "2", "typeId": "43ef-1b5a-1ea1-518b"},
+                  {"name": "AP", "$text": "-1", "typeId": "e2f6-5fc2-2ff5-6ee6"},
+                  {"name": "Special Rules", "$text": "-", "typeId": "c535-f99c-6c31-28c1"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Armoured Trench Coat",
+            "id": "856f-f2ea-38d5-289f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "page": 105,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "199b-5bdf-908d-c9e6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "2bab-6e7d-67fa-2347",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}]
+          }
+        ]
+      },
+      {
+        "name": "Plod Bot ",
+        "id": "1c8e-8bcd-0c8d-a58e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ae41-4437-3690-5160", "hidden": false, "primary": true, "targetId": "a1d8-ce2d-a3e7-4da8"},
+          {"name": "[Plod Bot]", "id": "8607-305f-5272-da45", "hidden": false, "primary": false, "targetId": "b0bd-fb7a-6d65-acf0"}
+        ],
+        "costs": [{"name": " Credits", "typeId": "Credits", "value": 50}],
+        "profiles": [
+          {
+            "name": "Plod Bot ",
+            "id": "6abc-c03a-6a3d-04e0",
+            "hidden": false,
+            "page": 49,
+            "publicationId": "58d6-eaa3-c92f-a34a",
+            "typeId": "700b-2a32-b272-400c",
+            "typeName": "<0 Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "247a-4650-f3d4-51bf"},
+              {"name": "Agility", "$text": "+0", "typeId": "b5bb-3f9d-8535-788e"},
+              {"name": "Shoot", "$text": "+0", "typeId": "6e97-95f4-e0eb-12db"},
+              {"name": "Melee", "$text": "+1", "typeId": "cf74-3d3d-6b64-614e"},
+              {"name": "Melee Dice", "$text": "2D", "typeId": "9343-dc2e-9ac1-7ee2"},
+              {"name": "Will", "$text": "+0", "typeId": "ef2d-08b2-6882-ff2a"},
+              {"name": "Armour", "$text": "+5", "typeId": "5a44-35b1-a24f-8ff5"},
+              {"name": "Hits", "$text": "1", "typeId": "7a5b-410d-f798-b64a"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Telescopic Arms",
+            "id": "ae63-1103-acee-49e9",
+            "description": "The plod bot can make close combat attacks against a target up to 6” away with a Melee action but cannot benefit from charging if it does so. At the end of this close combat, the two models are not required to take Melee actions again, and the plod bot is not moved closer to a pushed back enemy. The target may leave close combat in its turn without any penalties for fleeing.",
+            "hidden": false,
+            "page": 49,
+            "publicationId": "58d6-eaa3-c92f-a34a"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Truncheon (DayStick)",
+            "id": "29d7-8d84-4b32-2fe7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "f59c-8b34-f71e-82a4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "546b-8f42-b09b-a92b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Credits", "typeId": "Credits", "value": 0}],
+            "infoLinks": [{"name": "Parry", "id": "34cd-fd61-2611-7e03", "hidden": false, "targetId": "47d1-e63a-c66e-4912", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Truncheon (DayStick)",
+                "id": "708d-96cf-9bca-6bfb",
+                "hidden": false,
+                "page": 105,
+                "publicationId": "58d6-eaa3-c92f-a34a",
+                "typeId": "80d2-e41e-4294-6fca",
+                "typeName": "<2 Close Combat Weapon",
+                "characteristics": [
+                  {"name": "Damage", "$text": "1", "typeId": "d7ee-8740-c2fc-b939"},
+                  {"name": "AP", "$text": "0", "typeId": "8b7a-b403-bfd7-0446"},
+                  {"name": "Special Rules", "$text": "Parry", "typeId": "187d-a926-b5f3-956d"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
