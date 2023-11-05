@@ -1,0 +1,2439 @@
+{
+  "catalogue": {
+    "name": "The Justice Department (WG2019)",
+    "id": "cffa-ce89-e560-fa98",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 5,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Veteran Street Judge",
+        "id": "4cf6-f304-82ae-e9b8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cd92-40f8-3fc4-ed09",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Judge",
+        "id": "2dd7-5690-4b2e-ef08",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e281-7b36-5e5e-4b76",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Street Judge ",
+        "id": "d69b-7caa-ef82-0445",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6696-824a-92d8-0c09",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Senior Street Judge",
+        "id": "5dd0-c84d-6418-6dd7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9aa8-98b6-07d9-2418",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Rookie Judge",
+        "id": "3eb3-355e-9630-4e18",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2f09-ea49-8443-26dd",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Cadet Judge ",
+        "id": "340e-30d9-32da-264a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b3c7-16d9-dfa0-2578",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Riot Judge",
+        "id": "9598-74af-2234-263e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9137-0025-b28c-6cfb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Assault Judge",
+        "id": "311e-3d04-d85a-0410",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0fc1-483f-1cbd-6d7e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Wally Squad Judge",
+        "id": "3bb0-627d-08f8-ef20",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9339-b640-f865-dc43",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Pat Wagon",
+        "id": "e9e9-3cb2-32e9-fad3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f1b7-8610-6a0b-7a8d",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Street Judge",
+        "id": "b513-1a8d-8916-b6ab",
+        "hidden": false,
+        "page": 62,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Gunfighter or Brawler, Respect the Law, Let's Ride!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Veteran Street Judge",
+        "id": "3552-542e-01f4-9a6c",
+        "hidden": false,
+        "page": 62,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "3", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Gunfighter, Brawler, Fortitude, Respect the Law, Let's Ride!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Rookie Judge",
+        "id": "e82a-a38f-3b4f-6da4",
+        "hidden": false,
+        "page": 62,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "2", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Respect the Law, Let's Ride!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Judge",
+        "id": "2ba9-e5de-f917-9259",
+        "hidden": false,
+        "page": 62,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Respect the Law, Let's Ride!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Cadet Judge",
+        "id": "0ad1-1fae-cdca-e741",
+        "hidden": false,
+        "page": 62,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "2", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "2", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Let's Ride!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Senior Street Judge",
+        "id": "eafc-3e21-c5d4-e6e9",
+        "hidden": false,
+        "page": 62,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "3", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "5", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Gunfighter, Brawler, Fortitude, Respect the Law, Let's Ride!", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Boot Knife",
+        "id": "cfca-f781-7059-c67d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "6925-74de-c51e-8e47",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "f5ad-658e-d58a-33c5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+        "infoLinks": [{"name": "Throw", "id": "31db-c955-fecb-a216", "hidden": false, "targetId": "5255-df17-8c9a-15cd", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Boot Knife",
+            "id": "d8c3-7501-8e5d-1038",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "typeId": "8364-8962-cf49-2248",
+            "typeName": "[3] Close Combat Weapon/s",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+              {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+              {"name": "Special Rules", "$text": "Throw", "typeId": "bb54-254f-6c80-2469"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Day Stick",
+        "id": "f982-918a-3f55-d5a5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "d6fb-c0cb-a6ef-8aec",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "7c30-8e1c-625c-d252",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+        "infoLinks": [{"name": "Stun", "id": "8b7c-330a-f225-1593", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Day Stick",
+            "id": "435a-2255-62f2-be00",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "typeId": "8364-8962-cf49-2248",
+            "typeName": "[3] Close Combat Weapon/s",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+              {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+              {"name": "Special Rules", "$text": "Stun", "typeId": "bb54-254f-6c80-2469"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lawgiver Mk2 Pistol",
+        "id": "d5dc-d46f-c40a-ab6a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 66,
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+        "infoLinks": [
+          {"name": "Armour Piercing", "id": "84cc-67a4-799e-4985", "hidden": false, "targetId": "4758-9c20-7c6d-ccce", "type": "rule"},
+          {"name": "Special Rounds", "id": "a00a-004a-9c29-622e", "hidden": false, "targetId": "dd58-ed58-d5a9-2fee", "type": "rule"},
+          {"name": "Stun Pulse", "id": "0edc-770f-0ac6-0b63", "hidden": false, "targetId": "d49d-bd04-1c80-c408", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Lawgiver Mk2 Pistol",
+            "id": "9c26-1f4e-d7a9-7b0b",
+            "hidden": false,
+            "page": 66,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Armour Piercing, Special Rounds, Stun Pulse", "typeId": "6150-dda2-d656-9797"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M2000 Widowmaker",
+        "id": "d6a4-b33f-d117-d749",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 6}],
+        "infoGroups": [
+          {
+            "name": "New InfoGroup",
+            "id": "c5bf-609b-cccc-08e9",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Gas", "id": "28c6-608e-8dbd-49a2", "hidden": false, "targetId": "2c77-fddc-a4a3-d41b", "type": "rule"},
+              {"name": "Stun", "id": "a0db-0bff-9ef4-ea69", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"},
+              {"name": "Blast(X\")", "id": "e24f-5a4c-6a97-fb60", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"},
+              {"name": "Aimed Fire Only", "id": "401d-a7a0-6d93-4f3e", "hidden": false, "targetId": "5e2e-0e83-a900-1de7", "type": "rule"}
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "M2000 Stumm Gas",
+            "id": "c8d3-2f6b-79f6-89d7",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "6\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "0", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "18\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Aimed Fire Only, Blast(4\"), Gas, Stun", "typeId": "6150-dda2-d656-9797"}
+            ]
+          },
+          {
+            "name": "M2000 Frag",
+            "id": "a8ab-6a26-4263-6aa3",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "6\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "0", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "18\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Aimed Fire only, Blast(3\")", "typeId": "6150-dda2-d656-9797"}
+            ]
+          },
+          {
+            "name": "M2000 Widowmaker",
+            "id": "7c42-820d-2d51-d4e6",
+            "hidden": false,
+            "page": 68,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "+3", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Special Rounds", "typeId": "6150-dda2-d656-9797"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lawrod Mk5",
+        "id": "531f-3b73-5463-2a48",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+        "infoLinks": [{"name": "Long Barrel", "id": "62c7-98c9-9a55-3c4c", "hidden": false, "targetId": "f22c-2612-d386-22ec", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Lawrod Mk5",
+            "id": "32a3-d332-38cd-04e3",
+            "hidden": false,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "0", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "36\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Long Barrel", "typeId": "6150-dda2-d656-9797"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stub Gun",
+        "id": "3929-bafa-0ea9-ab09",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 10}],
+        "infoLinks": [{"name": "Stub Gun", "id": "777b-79b0-d025-56f7", "hidden": false, "targetId": "678e-97ad-932b-0efe", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Stub Gun",
+            "id": "a557-1778-f4d6-d328",
+            "hidden": false,
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "20\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "60\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "8", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Heavy Weapon, Stub Gun", "typeId": "6150-dda2-d656-9797"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Veteran Street Judge",
+        "id": "cd92-40f8-3fc4-ed09",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2a46-3765-af8f-0ff0", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "[Cool 4]", "id": "5481-7238-ac1f-ade3", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 21}],
+        "entryLinks": [
+          {
+            "name": ">Lawmaster",
+            "id": "36bb-b57c-2394-cab9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "aa8f-1337-09ee-9ca1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Day Stick",
+            "id": "cf0d-daea-0c67-a264",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f982-918a-3f55-d5a5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Boot Knife",
+            "id": "6eb1-0c2d-812f-4c9d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cfca-f781-7059-c67d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Judges Weapon",
+            "id": "df79-6fb6-3fe7-2883",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7b8c-b7f7-1f9a-096d",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Veteran Street Judge", "id": "000e-2bd5-a8f0-4b8b", "hidden": false, "targetId": "3552-542e-01f4-9a6c", "type": "profile"}]
+      },
+      {
+        "name": "Cadet Judge ",
+        "id": "b3c7-16d9-dfa0-2578",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "371d-e7be-9c53-52b5", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "f589-e518-9a0a-6c3b", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 9}],
+        "entryLinks": [
+          {
+            "name": "Boot Knife",
+            "id": "d952-3ee8-d10f-cd15",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cfca-f781-7059-c67d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Day Stick",
+            "id": "a467-c3e9-90ad-d3f7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f982-918a-3f55-d5a5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": ">Lawmaster",
+            "id": "818f-6abb-41d8-cfbb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "aa8f-1337-09ee-9ca1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Judges Weapon",
+            "id": "351e-3d3c-cccb-bf0b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7b8c-b7f7-1f9a-096d",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Let's Ride!", "id": "23f4-9e2e-ad46-72bc", "hidden": false, "targetId": "e2e3-8613-b985-2a16", "type": "rule"},
+          {"name": "Cadet Judge", "id": "6ed6-a7b1-1ebd-7947", "hidden": false, "targetId": "0ad1-1fae-cdca-e741", "type": "profile"}
+        ]
+      },
+      {
+        "name": "Judge",
+        "id": "e281-7b36-5e5e-4b76",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "7b27-2897-aedb-f790", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "[Cool 3]", "id": "7a8b-f7f7-bdea-0e41", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 13}],
+        "entryLinks": [
+          {
+            "name": "Boot Knife",
+            "id": "5f2c-5643-7bfd-be9d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cfca-f781-7059-c67d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Day Stick",
+            "id": "4588-2590-2800-f507",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f982-918a-3f55-d5a5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": ">Lawmaster",
+            "id": "be19-b8de-01da-c897",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "aa8f-1337-09ee-9ca1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Judges Weapon",
+            "id": "e9b7-1829-8e65-21d2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7b8c-b7f7-1f9a-096d",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": ">Specialist Skills",
+            "id": "e5ea-2a11-fd01-8e52",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "da10-b1d2-d190-6cc3",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Judge", "id": "1662-2107-eea8-dc6a", "hidden": false, "targetId": "2ba9-e5de-f917-9259", "type": "profile"}]
+      },
+      {
+        "name": "Rookie Judge",
+        "id": "2f09-ea49-8443-26dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "91b4-8fbd-0cd9-fc97", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "71dc-4a55-fc50-f632", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 11}],
+        "entryLinks": [
+          {
+            "name": "Boot Knife",
+            "id": "fe2b-4225-9594-0275",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cfca-f781-7059-c67d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Day Stick",
+            "id": "3083-d790-fcd6-af4f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f982-918a-3f55-d5a5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": ">Lawmaster",
+            "id": "fca8-f36c-2f9f-4a78",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "aa8f-1337-09ee-9ca1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Judges Weapon",
+            "id": "c4b7-9302-49d6-c82c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7b8c-b7f7-1f9a-096d",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": ">Specialist Skills",
+            "id": "bcfb-850b-9b12-873a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "da10-b1d2-d190-6cc3",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Rookie Judge", "id": "0bc0-3d33-0911-d191", "hidden": false, "targetId": "e82a-a38f-3b4f-6da4", "type": "profile"}]
+      },
+      {
+        "name": "Senior Street Judge",
+        "id": "9aa8-98b6-07d9-2418",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "010a-1212-a7ff-570e", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "da48-b53d-e669-6db4", "hidden": false, "primary": true, "targetId": "bbde-2ef6-d4a2-25e2"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 23}],
+        "entryLinks": [
+          {
+            "name": "Boot Knife",
+            "id": "bfc7-4d61-8228-756e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cfca-f781-7059-c67d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Day Stick",
+            "id": "7425-a3c6-19a6-4871",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f982-918a-3f55-d5a5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": ">Lawmaster",
+            "id": "d879-1372-cdfb-cd93",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "aa8f-1337-09ee-9ca1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Judges Weapon",
+            "id": "9d1b-8d56-ad7e-1a84",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7b8c-b7f7-1f9a-096d",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Senior Street Judge", "id": "2f68-68af-8496-3b54", "hidden": false, "targetId": "eafc-3e21-c5d4-e6e9", "type": "profile"}]
+      },
+      {
+        "name": "Street Judge ",
+        "id": "6696-824a-92d8-0c09",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "79bb-7b7d-4c82-0966", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "[Cool 4]", "id": "c747-3b8a-b734-c3d7", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 18}],
+        "entryLinks": [
+          {
+            "name": ">Combat Skill",
+            "id": "9966-a70a-9bfc-0644",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0cd9-a3f1-0aa1-432b",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Boot Knife",
+            "id": "7d61-c230-6749-cc0c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cfca-f781-7059-c67d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Day Stick",
+            "id": "0fdd-5014-63ce-30c3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f982-918a-3f55-d5a5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Judges Weapon",
+            "id": "91c7-6cc5-1fc0-5629",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7b8c-b7f7-1f9a-096d",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": ">Specialist Skills",
+            "id": "c29b-5729-9682-15fe",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "da10-b1d2-d190-6cc3",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": ">Lawmaster",
+            "id": "5340-5289-fce2-b726",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "aa8f-1337-09ee-9ca1",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Street Judge",
+            "id": "521f-37c2-56ce-2d42",
+            "hidden": false,
+            "targetId": "b513-1a8d-8916-b6ab",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Gunfighter, Respect the Law, Let's Ride!",
+                "conditions": [
+                  {
+                    "childId": "fda0-a439-94a6-61eb",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "6696-824a-92d8-0c09",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Brawler, Respect the Law, Let's Ride!",
+                "conditions": [
+                  {
+                    "childId": "9b4e-b6fa-7122-139b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "6696-824a-92d8-0c09",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Specialist Skills",
+        "id": "a862-b1fe-2b67-1d8d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "1e39-fcf8-fa0b-1ea8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "d7f0-78e4-1756-fe32",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}]
+      },
+      {
+        "name": "Med Judge",
+        "id": "2d09-c11b-6c04-418c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 71,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 3}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6696-824a-92d8-0c09",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Med Judge",
+            "id": "2d10-971d-36a4-eaf7",
+            "description": "A Med Judge can use the Hunker Downdouble action to attempt to remove Injury or Stun markers from a single friendly model within 1\", even if that model is incapacitated. Roll a Resist test using the injured model's starting Resist stat. For each [Armour] result one Injury or Stun marker may be removed. This skill can be used to revive incapacitated and subdues models.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Tek Judge",
+        "id": "46e1-c26e-5a18-888d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 71,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 4}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6696-824a-92d8-0c09",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Tek Judge",
+            "id": "5623-fb02-979c-77fd",
+            "description": "The model gains the Armourer Skill.\nBefore the beginning of the gamedraw one additionalArmoury card for each Tek Judge present in the player's faction. The player is then allowed to keep one more Armoury card than usual.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Psi-Judge",
+        "id": "3745-a135-b3eb-569a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 70,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 4}],
+        "selectionEntryGroups": [
+          {
+            "name": "Psi Skill ",
+            "id": "d4e0-6759-0f3f-69e6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "8d93-a635-db1d-1998",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "5acd-0d1c-8e8a-b231",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Pre-Cog",
+                "id": "f3e3-b002-3558-268a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 70,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "rules": [
+                  {
+                    "name": "Pre-Cog",
+                    "id": "7277-be0b-3909-b785",
+                    "description": "To use Pre-Cog a Psi-Judge must be activated and perform an Overwatch action following all the normal rules for this double-action. As a Psi-Judge on Overwatch is predicting the short-term future, they are less surprised by the actions of enemy models. A Psi-Judge can, therefore, take an Aimed Shot even if the model they are reacting to performs a Move, Sprint or Charge action.\n\nAlternatively, if any Judge within line of sight of the Psi-Judge using Pre-Cog is subject to a ranged or close combat attack they may re-roll their Evade dice when dodging thanks to the Pre-Cog's warning. The Psi-Judge's Overwatch token is immediately removed after this roll.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Psionic Control",
+                "id": "a225-ec54-e4d7-6822",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 70,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "rules": [
+                  {
+                    "name": "Psionic Control",
+                    "id": "5a2e-4289-6f9e-a347",
+                    "description": "Psionic Control requires a double-action. The Psi-Judge using it must be within 12\" of the target. Psionic Control does not affect robots and A.I. controlled vehicles.\n\nIf the Psi-Judge has Los to the target, the opposing model must take a Cool test. \nFails = Justice Department player makes the target model take a single action, but not a double-action.\n\nIf the Psi-Judge does not have line of sight to the target, the opposing model may roll one extra Combat dice for their Cool test. In either case if the target passes the model is Pinned.\n\nThe target model may not be forced to take any action that would catastrophically harm it such as jumping off a building or eating a frag bomb. However, a victim could be forced to Snapshot at or Fight with a friendly model.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Mind Probe!",
+                "id": "fd58-9976-16b1-550d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 71,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "rules": [
+                  {
+                    "name": "Mind Probe!",
+                    "id": "8b32-98df-9a6d-9838",
+                    "description": "Upon activating, a Psi-Judge can manifest this power as a double-action. The Psi-Judge using it must be within 12\" of the target model. Mind probe does not affect robots and A.I. controlled vehicles.\n\nMake a Cool test for the Psi-Judge counting [Special] and [Hit] results as successes. Each success rolled automatically inflicts one Stun marker on the target.\nRoll a Cool test for the target model, adding one Combat dice if the Psi-Judge does not have Los. Each [Armour] rolled negates one of the Stun results. Mind Probe can subdue a model if the number of stuns remaining equals or beats their Cool stat.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SJS Judge",
+        "id": "73f5-a344-d900-4c28",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 71,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "type": "upgrade",
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "2f09-ea49-8443-26dd",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e281-7b36-5e5e-4b76",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "One-way Trip to Titan",
+            "id": "e04a-f7ee-90a3-7686",
+            "description": "Any Justice Department model is subject to the Respect the Law rule when facing SJS Judges. The mere sight of a distinctively uniformed SJS Judge can compel even experienced Mega-City One Judges to freeze with indecision. When SJS Judges activate they can intimidate any Justice Department model within 12\" and within Los for no cost. To determine the effect of theintimidation, take a Cool test for the target model. If the test is failed, the target is pinned.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Riot Judge",
+        "id": "9137-0025-b28c-6cfb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 26,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "<The Justice Department", "id": "904b-2b0e-3e4b-a5f2", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "4704-7d2d-df9b-349d", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 12}],
+        "entryLinks": [
+          {
+            "name": "Riot Foam",
+            "id": "ab1a-d2e5-4c14-f02c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f005-ccc0-3669-acc0",
+            "type": "selectionEntry"
+          }
+        ],
+        "infoLinks": [{"name": "Respect the Law", "id": "28b9-2a10-0452-e906", "hidden": false, "targetId": "024b-70c9-0168-407d", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Riot Judge",
+            "id": "2783-8c27-84ae-c4a1",
+            "hidden": false,
+            "typeId": "1ad0-6f7a-89c2-56c0",
+            "typeName": "[4] Mount",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "f8e7-0c5a-630a-6072"},
+              {"name": "Shoot", "$text": "3", "typeId": "cf37-0e8c-2b04-e94e"},
+              {"name": "Fight", "$text": "3", "typeId": "9bbe-2745-8a35-94ab"},
+              {"name": "Evade", "$text": "1", "typeId": "8a4d-9660-2e2d-760c"},
+              {"name": "Resist", "$text": "4", "typeId": "5895-12a6-bdef-a0b4"},
+              {"name": "Cool", "$text": "3", "typeId": "e971-e0b1-c42c-0f04"},
+              {"name": "Special Rules", "$text": "Respect the Law", "typeId": "c7e1-0b5d-d4d9-8634"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Riot Foam",
+        "id": "f005-ccc0-3669-acc0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 25,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "92b2-932d-64f5-448c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "6e42-794e-af38-fc1b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+        "infoLinks": [
+          {"name": "Blast(X\")", "id": "a515-66bd-a485-6bc0", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"},
+          {"name": "Heavy Weapon", "id": "2982-5b59-cb98-5a6a", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Riot Foam",
+            "id": "a70a-1266-a355-f75b",
+            "hidden": false,
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "4\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "8\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "+0", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "6", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Blast (2\"), Heavy Weapon, Riot Foam", "typeId": "6150-dda2-d656-9797"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Riot Foam",
+            "id": "fa64-0857-5455-0d7d",
+            "description": "The non-lethal Stun special rule is always used with riot foam. However, Stunned markers placed by the riot foam cannot be removed during a scenario.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Assault Judge",
+        "id": "0fc1-483f-1cbd-6d7e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 27,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "<The Justice Department", "id": "4545-0fd9-fd46-269d", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "081c-fe9b-80cf-034b", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 18}],
+        "infoLinks": [
+          {"name": "Respect the Law", "id": "cb72-d021-c0d4-9648", "hidden": false, "targetId": "024b-70c9-0168-407d", "type": "rule"},
+          {"name": "Brawler", "id": "17db-d15c-c2de-ad9e", "hidden": false, "targetId": "cff2-8dcb-5e21-c8c4", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Assault Judge",
+            "id": "ca08-77f5-cae3-ebc6",
+            "hidden": false,
+            "typeId": "1ad0-6f7a-89c2-56c0",
+            "typeName": "[4] Mount",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "f8e7-0c5a-630a-6072"},
+              {"name": "Shoot", "$text": "4", "typeId": "cf37-0e8c-2b04-e94e"},
+              {"name": "Fight", "$text": "4", "typeId": "9bbe-2745-8a35-94ab"},
+              {"name": "Evade", "$text": "3", "typeId": "8a4d-9660-2e2d-760c"},
+              {"name": "Resist", "$text": "4", "typeId": "5895-12a6-bdef-a0b4"},
+              {"name": "Cool", "$text": "4", "typeId": "e971-e0b1-c42c-0f04"},
+              {"name": "Special Rules", "$text": "Brawler, Respect the Law", "typeId": "c7e1-0b5d-d4d9-8634"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Weapons]",
+            "id": "d0c0-4254-f391-e7f9",
+            "collective": false,
+            "defaultSelectionEntryId": "8ce7-9ae6-6c35-038f",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "fb92-e768-7990-4d6b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9218-ca58-db87-61ba",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Riot Shield and Day Stick",
+                "id": "8ce7-9ae6-6c35-038f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "64e5-d8a0-f9cd-0b46",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "3771-6686-2b99-c540",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ],
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "Riot Shield",
+                    "id": "30bd-7d93-dd3f-5a3b",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c0b3-e6ed-6122-5398",
+                    "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Day Stick",
+                    "id": "0f05-7644-173e-b6fe",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f982-918a-3f55-d5a5",
+                    "type": "selectionEntry"
+                  }
+                ]
+              },
+              {
+                "name": "Riot Shield and Disruptor Gun",
+                "id": "cf30-a893-45a9-e76a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "4cbc-12aa-2868-a560",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  },
+                  {
+                    "id": "6dce-d288-5f75-43e4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "Riot Shield",
+                    "id": "33d9-20fa-5164-425d",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c0b3-e6ed-6122-5398",
+                    "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Disruptor Gun",
+                    "id": "9758-f47f-081f-c08e",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "070f-9fb1-73a4-68da",
+                    "type": "selectionEntry"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Riot Shield",
+        "id": "c0b3-e6ed-6122-5398",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 25,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "759e-f192-7078-87ab",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "5d50-5078-34ce-9fd0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+        "infoLinks": [{"name": "Knockback", "id": "9656-9aae-c7bb-abb2", "hidden": false, "targetId": "09c2-49fa-9b41-5372", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Riot Shield",
+            "id": "e1a1-7a88-17b2-3ec3",
+            "hidden": false,
+            "typeId": "8364-8962-cf49-2248",
+            "typeName": "[3] Close Combat Weapon/s",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+              {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+              {"name": "Special Rules", "$text": "Block, Knockback", "typeId": "bb54-254f-6c80-2469"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Block",
+            "id": "c5f1-d52e-e003-e671",
+            "description": "A model equipped with a riot shield can force an enemy model who has just taken a Fight action against it to re-roll one [HIT] result.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Disruptor Gun",
+        "id": "070f-9fb1-73a4-68da",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 23,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "8274-cda3-a67c-8647",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "7d12-d201-a6fa-0495",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+        "infoLinks": [
+          {"name": "Piercing", "id": "517b-53a0-75e2-a736", "hidden": false, "targetId": "3b97-6a4a-235f-ac9e", "type": "rule"},
+          {"name": "Rending", "id": "276d-85fc-686a-df82", "hidden": false, "targetId": "6c9a-2c96-b40c-99c6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Disruptor Gun",
+            "id": "ebf7-1730-c157-e20a",
+            "hidden": false,
+            "typeId": "bbb4-d231-609d-67bc",
+            "typeName": "[2] Ranged Weapon/s",
+            "characteristics": [
+              {"name": "Short Range", "$text": "6\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+              {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+              {"name": "Long Range", "$text": "10\"", "typeId": "326e-8548-0cc4-57f3"},
+              {"name": "Long Range Modifier", "$text": "+1", "typeId": "6b37-0d47-3011-d3f3"},
+              {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+              {"name": "Special Rules", "$text": "Distrption, Piercing, Rending", "typeId": "6150-dda2-d656-9797"}
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Distruption", "id": "e0a2-9a62-a17f-e974", "description": "The non-lethal Stun special rule is always used with the disruptor gun.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Wally Squad Judge",
+        "id": "9339-b640-f865-dc43",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 27,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "<The Justice Department", "id": "2967-4307-57c9-7f61", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "2d4a-d8df-1fd9-c586", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 12}],
+        "entryLinks": [
+          {
+            "name": ">Combat Skill",
+            "id": "335b-ff83-3da6-6d08",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0cd9-a3f1-0aa1-432b",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Wally Squad Judge",
+            "id": "5b4c-d376-b0a9-0867",
+            "hidden": false,
+            "typeId": "a6e3-cdc0-1b71-2e5d",
+            "typeName": "[1] Model",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+              {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+              {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+              {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+              {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+              {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+              {"name": "Special Rules", "$text": "Gunfighter OR Brawler, Wally Squad", "typeId": "a488-1615-8c9e-2b73"}
+            ]
+          }
+        ],
+        "rules": [{"name": "Wally Squad", "id": "f495-5695-fd47-0973", "hidden": false}],
+        "selectionEntryGroups": [
+          {
+            "name": "[Weapon]",
+            "id": "b6ec-bfbf-bd2b-691a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "35f6-d984-5215-10f3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "6061-d1bb-2bef-9228",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Close Combat Weapon",
+                "id": "5e94-0ffa-822f-d15d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Close Combat Weapon",
+                    "id": "86e5-45f4-5792-3e50",
+                    "hidden": false,
+                    "typeId": "8364-8962-cf49-2248",
+                    "typeName": "[3] Close Combat Weapon/s",
+                    "characteristics": [
+                      {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                      {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                      {"name": "Special Rules", "typeId": "bb54-254f-6c80-2469"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Knife",
+                "id": "0af4-3db5-2134-d52a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [{"name": "Throw", "id": "1bf0-0692-2b06-1029", "hidden": false, "targetId": "5255-df17-8c9a-15cd", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Knife",
+                    "id": "8ae8-fcd4-eb61-2d90",
+                    "hidden": false,
+                    "typeId": "8364-8962-cf49-2248",
+                    "typeName": "[3] Close Combat Weapon/s",
+                    "characteristics": [
+                      {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                      {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                      {"name": "Special Rules", "$text": "Throw", "typeId": "bb54-254f-6c80-2469"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain",
+                "id": "5a86-1856-15b4-6270",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Chain",
+                    "id": "d0b8-64f0-06b8-cc6d",
+                    "hidden": false,
+                    "typeId": "8364-8962-cf49-2248",
+                    "typeName": "[3] Close Combat Weapon/s",
+                    "characteristics": [
+                      {"name": "Range", "$text": "3\"", "typeId": "bf65-aadc-346d-c3eb"},
+                      {"name": "Modifier", "$text": "0", "typeId": "a678-5e0c-738b-f771"},
+                      {"name": "Special Rules", "typeId": "bb54-254f-6c80-2469"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pistol",
+                "id": "60da-3e2b-2cbe-d63e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Pistol",
+                    "id": "baf7-e467-b64e-7f21",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hand Cannon",
+                "id": "eb71-5bd4-17a8-c9fa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Hand Cannon",
+                    "id": "c0d3-80df-204b-d78c",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Spit Pistol",
+                "id": "2f58-1c98-5a8f-a3fc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Spit Pistol",
+                    "id": "be29-7bd6-0fe1-c578",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sawn-Off Stump Gun",
+                "id": "17b7-1742-5894-4739",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [{"name": "Knockback", "id": "e1f7-733e-964a-fa48", "hidden": false, "targetId": "09c2-49fa-9b41-5372", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Sawn-Off Stump Gun",
+                    "id": "d0d4-a974-8792-bc11",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "-", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {
+                        "name": "Special Rules",
+                        "$text": "Knockback, Cannot fire 2 Snapshots in a single activation, May be fired either one- or two-handed (-1 Shoot modifier if fired one-handed).",
+                        "typeId": "6150-dda2-d656-9797"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pat Wagon",
+        "id": "f1b7-8610-6a0b-7a8d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "<The Justice Department", "id": "a68c-8490-c211-6ced", "hidden": false, "primary": false, "targetId": "679d-38be-0ed3-5a13"},
+          {"name": "New CategoryLink", "id": "3b73-1abe-74ec-181f", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 53}],
+        "profiles": [
+          {
+            "name": "Pat Wagon",
+            "id": "fd09-26a8-21a7-f86e",
+            "hidden": false,
+            "typeId": "a6e3-cdc0-1b71-2e5d",
+            "typeName": "[1] Model",
+            "characteristics": [
+              {"name": "Move", "$text": "8\"", "typeId": "0a83-d3be-bc14-c04b"},
+              {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+              {"name": "Fight", "$text": "6", "typeId": "c0e3-f4e1-8744-e805"},
+              {"name": "Evade", "typeId": "2dde-74b6-a414-836d"},
+              {"name": "Resist", "$text": "8", "typeId": "1ba5-0dfe-80d2-af1a"},
+              {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+              {"name": "Special Rules", "$text": "6 Passangers, Pacifier", "typeId": "a488-1615-8c9e-2b73"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Heavy Spit Guns",
+            "id": "9afd-1b02-c09c-5f64",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "page": 29,
+            "publicationId": "4353-a3c6-7b4d-0185",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "0298-c7c0-94b0-5608",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f0e4-240f-60e8-03eb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 6}],
+            "infoLinks": [{"name": "Heavy Weapon", "id": "9297-7ad2-1843-a226", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Heavy Spit Guns",
+                "id": "3333-d49d-0136-b198",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "16\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+3", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "48\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "+2", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Heavy Weapon", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "[Weapons]",
+            "id": "70c6-b46e-3c7b-72f6",
+            "collective": false,
+            "defaultSelectionEntryId": "103f-8f18-c755-ea2a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0130-4c19-06d3-54a7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a54e-2e5f-c4c2-054c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Pacifier",
+                "id": "103f-8f18-c755-ea2a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 28,
+                "publicationId": "4353-a3c6-7b4d-0185",
+                "type": "upgrade",
+                "infoLinks": [
+                  {"name": "Blast(X\")", "id": "84d7-8dc6-cb4b-2cd6", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"},
+                  {"name": "Gas", "id": "0c83-36f2-73c3-fddf", "hidden": false, "targetId": "2c77-fddc-a4a3-d41b", "type": "rule"},
+                  {"name": "Stun", "id": "bedd-4cff-23c8-8f77", "hidden": false, "targetId": "36d1-a245-27da-bc68", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Pacifier Stumm Grenades",
+                    "id": "4e6c-f578-ef47-8bd7",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Blast (4\"), Gas, Stun", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  },
+                  {
+                    "name": "Pacifier Concussion Bombs",
+                    "id": "396e-8318-1536-b9cb",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Blast (2\"). Stun", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pacifier Riot Roam",
+                "id": "0366-2098-36f1-d340",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 29,
+                "publicationId": "4353-a3c6-7b4d-0185",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 8}],
+                "infoLinks": [
+                  {"name": "Heavy Weapon", "id": "31cf-f471-c5b0-0b66", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"},
+                  {"name": "Blast(X\")", "id": "7baa-4092-abe8-46d2", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Pacifier Riot Roam",
+                    "id": "cdf9-1716-602f-f9bf",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "12\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Heavy Weapon, Blast (2\"), Riot Foam", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Riot Roam",
+                    "id": "0c3b-c73c-4108-0872",
+                    "description": "The non-lethal Stun special rule is always used with riot foam. However, Stunned markers placed by riot foam cannot be removed during a scenario.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Rocket Launcher",
+                "id": "bcc0-9f7a-14e8-c1f1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 8}],
+                "infoLinks": [
+                  {"name": "Heavy Weapon", "id": "8931-a241-c849-adee", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"},
+                  {"name": "Blast(X\")", "id": "9cd2-5d57-2be6-513d", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Rocket Launcher",
+                    "id": "da41-5b9f-d7dd-f710",
+                    "hidden": false,
+                    "page": 29,
+                    "publicationId": "4353-a3c6-7b4d-0185",
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "20\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "40\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Heavy Weapons, Blast (2\"), May use Armoury card special rounds", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Laser Cannon",
+                "id": "c7f4-35d4-ff8d-5184",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 29,
+                "publicationId": "4353-a3c6-7b4d-0185",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 15}],
+                "infoLinks": [
+                  {"name": "Heavy Weapon", "id": "98db-8f91-bd4e-2752", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"},
+                  {"name": "Laser", "id": "486d-f422-f840-6894", "hidden": false, "targetId": "40c1-f0e4-f19b-eb43", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Laser Cannon",
+                    "id": "c176-1889-8db4-9514",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "25\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "50\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-2", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "6", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Heavy Weapon, Laser", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Judges Weapon",
+        "id": "7b8c-b7f7-1f9a-096d",
+        "collective": false,
+        "defaultSelectionEntryId": "6bd9-31d1-41c0-742f",
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "246e-1982-20f4-cded",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "9eac-e77c-e952-0031",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Lawrod Mk5",
+            "id": "c0e3-93ee-9333-ffae",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "531f-3b73-5463-2a48",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Stub Gun",
+            "id": "1804-f749-d691-31ae",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3929-bafa-0ea9-ab09",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "M2000 Widowmaker",
+            "id": "f045-3db7-d1a1-c005",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d6a4-b33f-d117-d749",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Lawgiver Mk2 Pistol",
+            "id": "6bd9-31d1-41c0-742f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d5dc-d46f-c40a-ab6a",
+            "type": "selectionEntry"
+          }
+        ]
+      },
+      {
+        "name": ">Combat Skill",
+        "id": "0cd9-a3f1-0aa1-432b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "b856-4190-da54-babf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "a7e5-fe27-6b61-8e46",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gunfighter",
+            "id": "fda0-a439-94a6-61eb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Gunfighter", "id": "072b-6e3e-bf9e-4c7a", "hidden": false, "targetId": "cf10-e6f2-897d-aaad", "type": "rule"}]
+          },
+          {
+            "name": "Brawler",
+            "id": "9b4e-b6fa-7122-139b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Brawler", "id": "6cd3-50ad-2857-f0ba", "hidden": false, "targetId": "cff2-8dcb-5e21-c8c4", "type": "rule"}]
+          }
+        ]
+      },
+      {
+        "name": ">Specialist Skills",
+        "id": "da10-b1d2-d190-6cc3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "e421-b9a2-1675-94c6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "bc10-5bf0-d178-52ba",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 0
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Psi-Judge",
+            "id": "4879-1e4b-342d-eff2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3745-a135-b3eb-569a",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "SJS Judge",
+            "id": "a319-88bd-3d9c-5b44",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "73f5-a344-d900-4c28",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Tek Judge",
+            "id": "bd56-f5a6-51dc-58c1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "46e1-c26e-5a18-888d",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Med Judge",
+            "id": "f371-a47a-badb-673f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2d09-c11b-6c04-418c",
+            "type": "selectionEntry"
+          }
+        ]
+      },
+      {
+        "name": ">Lawmaster Mk",
+        "id": "bbb0-3167-2b9b-2a69",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "2be1-a9eb-2e1d-cc27",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 0
+          },
+          {
+            "id": "426e-e8e3-d932-83f3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Mk1 Lawmaster with Cyclops Laser",
+            "id": "74da-e123-24fc-2c30",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+            "infoLinks": [{"name": "Laser", "id": "e175-a879-be8c-5dc9", "hidden": false, "targetId": "40c1-f0e4-f19b-eb43", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Cyclops Laser ",
+                "id": "da95-9794-b4d0-0891",
+                "hidden": false,
+                "page": 65,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "20\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "40\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Laser, Fire arc: FF", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mk2 Lawmaster with Cyclops Laser and Bike Cannon",
+            "id": "7f06-2c27-966b-f970",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 9}],
+            "infoLinks": [
+              {
+                "name": "Blast(X\")",
+                "id": "0579-4d36-e0bc-d15c",
+                "hidden": false,
+                "page": 65,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "targetId": "0a79-b0ce-a34b-0548",
+                "type": "rule"
+              },
+              {"name": "Laser", "id": "2e7d-6baa-b0ea-d0fa", "hidden": false, "targetId": "40c1-f0e4-f19b-eb43", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Cyclops Laser",
+                "id": "95bd-5d97-8813-86d6",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "20\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "40\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Laser", "typeId": "6150-dda2-d656-9797"}
+                ]
+              },
+              {
+                "name": "Bike Cannon",
+                "id": "09ec-420d-e103-5e33",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "16\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "32\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "+1", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Blast (2\"), Fire arc: FF", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mk3 Lawmaster with Bike Cannon",
+            "id": "9fbb-122f-4de6-32f3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 4}],
+            "infoLinks": [
+              {
+                "name": "Blast(X\")",
+                "id": "9416-6210-cb56-abd0",
+                "hidden": false,
+                "page": 65,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "targetId": "0a79-b0ce-a34b-0548",
+                "type": "rule"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Bike Cannon",
+                "id": "4ccb-b4be-2df1-bea2",
+                "hidden": false,
+                "page": 65,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "16\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "32\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "+1", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Blast (2\"), Fire arc: FF", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
