@@ -1,0 +1,609 @@
+{
+  "catalogue": {
+    "name": "City Blocks (WG2019)",
+    "id": "2071-d66c-8ac0-d401",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 6,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Block Champion",
+        "id": "11d2-9d2b-e1ba-6404",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "45c5-897c-7b65-ba57",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Resident Mob",
+        "id": "1ad1-5fc5-7e45-35f9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "af87-1b8b-47b1-c868",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Lone Superhero",
+        "id": "cfa7-7764-0195-357b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b405-4af9-74fd-2cae",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Robodog",
+        "id": "3f7d-68c8-0b5b-c2b5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b7af-83eb-a9bd-843b",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Block Champion",
+        "id": "45c5-897c-7b65-ba57",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 34,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c6a9-419f-e025-97c9", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"},
+          {"name": "<City Blocks", "id": "671b-e59b-b515-c90c", "hidden": false, "primary": false, "targetId": "1e20-31f3-d17c-d52e"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 12}],
+        "profiles": [
+          {
+            "name": "Block Champion",
+            "id": "1bbc-905e-795d-fdda",
+            "hidden": false,
+            "typeId": "1ad0-6f7a-89c2-56c0",
+            "typeName": "[4] Mount",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "f8e7-0c5a-630a-6072"},
+              {"name": "Shoot", "$text": "2", "typeId": "cf37-0e8c-2b04-e94e"},
+              {"name": "Fight", "$text": "4", "typeId": "9bbe-2745-8a35-94ab"},
+              {"name": "Evade", "$text": "2", "typeId": "8a4d-9660-2e2d-760c"},
+              {"name": "Resist", "$text": "4", "typeId": "5895-12a6-bdef-a0b4"},
+              {"name": "Cool", "$text": "4", "typeId": "e971-e0b1-c42c-0f04"},
+              {"name": "Special Rules", "$text": "Rally Blockers, True Inspiration", "typeId": "c7e1-0b5d-d4d9-8634"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Rally Blockers",
+            "id": "0fa9-3f61-b9dd-14a7",
+            "description": "At the start of the turn, the block Champion may combine any Resident Mob models within 12\" into a new or existing Resident Mob Pack. In addition, the Block Champion can convert any Average Citizens (JGMG p91) into Resident Mob  models and then combine them into a new or existing Pack.",
+            "hidden": false
+          },
+          {
+            "name": "True Inspiration",
+            "id": "32b8-3b67-1502-8e7a",
+            "description": "Any Resident Mob Pack within 6\" of the Block Champion can re-roll any Combat dice roll it makes.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "c3af-4028-6822-90f8",
+            "collective": false,
+            "defaultSelectionEntryId": "8110-79e4-00b8-5109",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d2c3-0e80-3a38-bac6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "fb5f-4428-b9b1-9274",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Baseball Bat",
+                "id": "8110-79e4-00b8-5109",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Baseball Bat",
+                    "id": "b0a9-4bfd-2e16-1afe",
+                    "hidden": false,
+                    "typeId": "8364-8962-cf49-2248",
+                    "typeName": "[3] Close Combat Weapon/s",
+                    "characteristics": [
+                      {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                      {"name": "Modifier", "$text": "+2", "typeId": "a678-5e0c-738b-f771"},
+                      {"name": "Special Rules", "$text": "Stun", "typeId": "bb54-254f-6c80-2469"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Two Knives",
+                "id": "9eae-ef10-8fea-d618",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [{"name": "Throw", "id": "fc2a-8f8e-74f4-7912", "hidden": false, "targetId": "5255-df17-8c9a-15cd", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Knife",
+                    "id": "58de-60c9-735c-2f2d",
+                    "hidden": false,
+                    "typeId": "8364-8962-cf49-2248",
+                    "typeName": "[3] Close Combat Weapon/s",
+                    "characteristics": [
+                      {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                      {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                      {"name": "Special Rules", "$text": "Throw", "typeId": "bb54-254f-6c80-2469"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Two Spit Pistols",
+                "id": "f904-5864-672b-6ed0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Spit Pistol",
+                    "id": "cc3a-b7dd-59d4-8ce0",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Resident Mob",
+        "id": "af87-1b8b-47b1-c868",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 35,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "model",
+        "categoryLinks": [{"name": "<City Blocks", "id": "36b7-35ad-863f-8605", "hidden": false, "primary": false, "targetId": "1e20-31f3-d17c-d52e"}],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 6}],
+        "profiles": [
+          {
+            "name": "Resident Mob",
+            "id": "affb-7be5-10fb-7535",
+            "hidden": false,
+            "typeId": "a6e3-cdc0-1b71-2e5d",
+            "typeName": "[1] Model",
+            "characteristics": [
+              {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+              {"name": "Shoot", "$text": "1", "typeId": "8de2-68d3-f0ee-02f0"},
+              {"name": "Fight", "$text": "1", "typeId": "c0e3-f4e1-8744-e805"},
+              {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+              {"name": "Resist", "$text": "1", "typeId": "1ba5-0dfe-80d2-af1a"},
+              {"name": "Cool", "$text": "1", "typeId": "4a73-c022-6ea7-27ce"},
+              {"name": "Special Rules", "$text": "Improvisation, Pack (6+)", "typeId": "a488-1615-8c9e-2b73"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Improvisation",
+            "id": "677d-f10e-bfd5-0e59",
+            "description": "Every turn, one model in every 10 (or part of) within a Resident Mob Pack can use one of the following weapons: Chain, Hand Bomb (Incendiary, Hi-Ex or Smoke), Hand Cannon, Laz Saw, Sawn-off Stump Gun, or Spit Pistol.",
+            "hidden": false,
+            "page": 35,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          },
+          {
+            "name": "Pack (6+)",
+            "id": "a05e-b7ba-c6b1-3ec5",
+            "description": "Resident Mobs can be of any size - limited only by the amount of Notoriety spent on them! However, they must contain at least six models. They follow the Pack rules detailed on page 19 of the Judge Dredd Miniatures Game. If the Pack drops to fewer than five models it immediately becomes subject to the Apt to Panic and Fear the Law rules on page 91 of the Judge Dredd Miniatures Game.",
+            "hidden": false,
+            "page": 35,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Number of Residents",
+            "id": "4004-60a8-7e55-29bb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "378d-d114-7d89-acd7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 6
+              },
+              {
+                "id": "fd52-05c4-a4d9-ac5e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": -1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 1}]
+          },
+          {
+            "name": "Saucepans, clubs, Tri-D screens and assorted junk",
+            "id": "77d9-fdd0-1da1-2b9e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "643a-aa5d-b0c9-78e0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "bb5f-f2d7-744b-8c09",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "profiles": [
+              {
+                "name": "Saucepans, clubs, Tri-D screens and assorted junk",
+                "id": "c2bd-108a-a0e4-91ba",
+                "hidden": false,
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lone Superhero",
+        "id": "b405-4af9-74fd-2cae",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 38,
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "[Cool 4]", "id": "9b0a-62fa-0040-e453", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"},
+          {"name": "<City Blocks", "id": "5dfc-c991-0fc6-f2ae", "hidden": false, "primary": false, "targetId": "1e20-31f3-d17c-d52e"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 4}],
+        "profiles": [
+          {
+            "name": "Lone Superhero",
+            "id": "1697-0ae6-a7ba-13f3",
+            "hidden": false,
+            "typeId": "a6e3-cdc0-1b71-2e5d",
+            "typeName": "[1] Model",
+            "characteristics": [
+              {"name": "Move", "$text": "16\"", "typeId": "0a83-d3be-bc14-c04b"},
+              {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+              {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+              {"name": "Evade", "$text": "4", "typeId": "2dde-74b6-a414-836d"},
+              {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+              {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+              {"name": "Special Rules", "$text": "Saving the Day, Soar Like a Rocket, Victory Together!", "typeId": "a488-1615-8c9e-2b73"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Saving the Day",
+            "id": "6b8c-4f32-699e-f727",
+            "description": "All friendly models within 18\" of the Line Superhero ignore the Apt to Panic and Fear the Law special rules if they possess them.",
+            "hidden": false,
+            "page": 28,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          },
+          {
+            "name": "Victory Together!",
+            "id": "824f-177e-7c08-7702",
+            "description": "If the Lone Superhero performs a double-action to give a rousing speech, roll 2D6. That many Average Citizens (see p91 JGMG) may be immediately placed within 6\" of the Lone Superhero.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          },
+          {
+            "name": "Soar Like a Rocket",
+            "id": "1405-4337-c793-14be",
+            "description": "The Lone Superhero uses the Grav trait during movement only.",
+            "hidden": false,
+            "page": 38,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Culinary Laser",
+            "id": "4df8-b7c1-451e-42bb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "f54e-339c-fc4a-869b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f115-fe98-3dda-7cac",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [
+              {"name": "Concealed", "id": "2b8a-f73d-2ff7-80b9", "hidden": false, "targetId": "13b0-e8da-848e-a589", "type": "rule"},
+              {"name": "Piercing", "id": "161b-7789-c562-5779", "hidden": false, "targetId": "3b97-6a4a-235f-ac9e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Culinary Laser",
+                "id": "7ede-827a-0b67-10ab",
+                "hidden": false,
+                "page": 46,
+                "publicationId": "23e2-8cf2-260a-a7be",
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "Concealed, Piercing", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Laser Pistol",
+            "id": "b618-2425-b1c7-0ebe",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "page": 41,
+            "publicationId": "23e2-8cf2-260a-a7be",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c216-4fb7-dd90-b71b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1c2c-c251-8e49-2269",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [{"name": "Laser", "id": "809b-49ff-31f5-1622", "hidden": false, "targetId": "40c1-f0e4-f19b-eb43", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Laser Pistol",
+                "id": "f731-645d-00de-d966",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "5", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "$text": "Laser", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Robodogs (3)",
+        "id": "b7af-83eb-a9bd-843b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": "38-39",
+        "publicationId": "4353-a3c6-7b4d-0185",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a817-4114-7346-25e4", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"},
+          {"name": "<City Blocks", "id": "17fe-2b31-9c4b-3e28", "hidden": false, "primary": false, "targetId": "1e20-31f3-d17c-d52e"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 15}],
+        "profiles": [
+          {
+            "name": "Robodog",
+            "id": "a8ff-929b-e33b-cfda",
+            "hidden": false,
+            "typeId": "a6e3-cdc0-1b71-2e5d",
+            "typeName": "[1] Model",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+              {"name": "Shoot", "$text": "0", "typeId": "8de2-68d3-f0ee-02f0"},
+              {"name": "Fight", "$text": "4", "typeId": "c0e3-f4e1-8744-e805"},
+              {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+              {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+              {"name": "Cool", "$text": "2", "typeId": "4a73-c022-6ea7-27ce"},
+              {"name": "Special Rules", "$text": "Loyal Doggo, Pack (3), Robot", "typeId": "a488-1615-8c9e-2b73"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Loyal Doggo",
+            "id": "4ab6-82e0-dd97-73c5",
+            "description": "A Robodog Pack may be deployed within 1\" of another friendly model. This friendly model is owner of the Robodogs, to whom they will be fantastically loyal. So long as a Robodog is within 1\" of its owner, roll a Combat dice when any ranged attack is made against the owner. If [ARMOUR] is rolled, the attack must be made against the Robodog instead. In addition, if a Robodog Pack is within 1\" of its owner and a close combat attack is made against them, the Robodogs will defend their owner to the death! Immediately move the Robodog Pack into contact with the attacker. The close combat attack must be made against a Robodog.",
+            "hidden": false,
+            "page": 39,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          },
+          {
+            "name": "Pack (3)",
+            "id": "266a-8376-debd-6a74",
+            "description": "Robodogs follow the rules detailed on page 19 of the Judge Dredd Miniatures Game rule book.",
+            "hidden": false
+          },
+          {"name": "Robodog", "id": "79e6-17c7-62eb-5c8c", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Very Sharp Teeth",
+            "id": "f6fe-cc68-2af2-00de",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "8d92-c840-1577-2070",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4a5f-33be-847c-0d92",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "infoLinks": [
+              {"name": "Concealed", "id": "3c90-7785-36ab-158b", "hidden": false, "targetId": "13b0-e8da-848e-a589", "type": "rule"},
+              {"name": "Piercing", "id": "81c4-95a2-905d-9c72", "hidden": false, "targetId": "3b97-6a4a-235f-ac9e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Very Sharp Teeth",
+                "id": "d6f1-6d1b-6648-c787",
+                "hidden": false,
+                "typeId": "8364-8962-cf49-2248",
+                "typeName": "[3] Close Combat Weapon/s",
+                "characteristics": [
+                  {"name": "Range", "$text": "1\"", "typeId": "bf65-aadc-346d-c3eb"},
+                  {"name": "Modifier", "$text": "+1", "typeId": "a678-5e0c-738b-f771"},
+                  {"name": "Special Rules", "$text": "Concealed, Piercing", "typeId": "bb54-254f-6c80-2469"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
