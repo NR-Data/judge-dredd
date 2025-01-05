@@ -1,0 +1,999 @@
+{
+  "catalogue": {
+    "name": "Citi-Def (WG2019)",
+    "id": "e02f-48ed-79b7-c069",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ae68-bf10-140a-0058",
+    "gameSystemRevision": 7,
+    "library": false,
+    "revision": 4,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Citi-Def Sniper",
+        "id": "2832-4750-b416-c0dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3a4d-7b29-909d-f229",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Citi-Def Auxiliary",
+        "id": "b3f3-21d0-de94-b11c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "84ba-e5c6-d15a-d9c6",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Citi-Def Trooper",
+        "id": "5f99-b5c7-8375-b7f3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c368-4f60-c279-072b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Citi-Def Squad Leader",
+        "id": "1df9-4a83-0244-a698",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9e88-fdcb-353c-f5b8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Citi-Def Med Tech",
+        "id": "99e8-66da-9e6b-8ec1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f87a-8897-0ad5-421c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Citi-Def Weapon Emplacement",
+        "id": "3e51-447a-0220-e217",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f5b2-e968-463a-6551",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Jaeger Squad Commando",
+        "id": "5e7b-5308-8eaf-1011",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5d1d-975c-cc7c-62d6",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Citi-Def Sniper",
+        "id": "bc74-4f09-d9e2-d3d4",
+        "hidden": false,
+        "page": 102,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Sniper", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Citi-Def Squad Leader",
+        "id": "0cd6-618d-947d-6e23",
+        "hidden": false,
+        "page": 102,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "4", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "Access to the Armoury, Leading from the Front", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Citi-Def Auxiliary",
+        "id": "fdbf-ddd7-4f46-d6ba",
+        "hidden": false,
+        "page": 102,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "2", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "2", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "-", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      },
+      {
+        "name": "Citi-Def Trooper",
+        "id": "7f96-3d7c-dd24-333d",
+        "hidden": false,
+        "page": 102,
+        "publicationId": "23e2-8cf2-260a-a7be",
+        "typeId": "a6e3-cdc0-1b71-2e5d",
+        "typeName": "[1] Model",
+        "characteristics": [
+          {"name": "Move", "$text": "5\"", "typeId": "0a83-d3be-bc14-c04b"},
+          {"name": "Shoot", "$text": "3", "typeId": "8de2-68d3-f0ee-02f0"},
+          {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+          {"name": "Evade", "$text": "1", "typeId": "2dde-74b6-a414-836d"},
+          {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+          {"name": "Cool", "$text": "3", "typeId": "4a73-c022-6ea7-27ce"},
+          {"name": "Special Rules", "$text": "-", "typeId": "a488-1615-8c9e-2b73"}
+        ]
+      }
+    ],
+    "sharedRules": [{"name": "Body Armour", "id": "4807-dd8d-49b4-1f71", "description": "+1 Resist", "hidden": false}],
+    "sharedSelectionEntries": [
+      {
+        "name": "Citi-Def Squad Leader",
+        "id": "9e88-fdcb-353c-f5b8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "dee4-f6fe-68a7-1200", "hidden": false, "primary": false, "targetId": "9cfd-c39e-c906-9440"},
+          {"name": "New CategoryLink", "id": "1b5f-9724-3d06-5c16", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 10}],
+        "entryLinks": [
+          {
+            "name": ">Body Armour",
+            "id": "6bd5-f749-2f1d-8525",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6fa9-704c-28bc-a54f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "<[Weapons]",
+            "id": "fb8d-7a71-37f9-2f28",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "e8dd-84af-904b-92c3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Citi-Def Squad Leader",
+            "id": "7756-621d-867f-dc66",
+            "hidden": false,
+            "targetId": "0cd6-618d-947d-6e23",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Access to the Armoury, Leading from the Front, Body Armour",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "9e88-fdcb-353c-f5b8",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "1ba5-0dfe-80d2-af1a",
+                "type": "append",
+                "value": "(+1)",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "9e88-fdcb-353c-f5b8",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Access to the Armoury",
+            "id": "9571-cf00-0511-2d09",
+            "description": "If a Citi-Def Squald Leader is the leader of your faction, you may draw one extra Amoury card and keep one more card than normal.",
+            "hidden": false
+          },
+          {
+            "name": "Leading from the Front",
+            "id": "89bf-6ef8-b8e2-bf4a",
+            "description": "Use a single action to return a chip to the bag of another Citi-Def model within 8\" and line of sight from the Squad Leader. Can be used on a second model for another single action.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Citi-Def Sniper",
+        "id": "3a4d-7b29-909d-f229",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "310d-6d8f-6f20-5e07", "hidden": false, "primary": false, "targetId": "9cfd-c39e-c906-9440"},
+          {"name": "New CategoryLink", "id": "1434-b3a7-db96-c863", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 5}],
+        "entryLinks": [
+          {
+            "name": ">Body Armour",
+            "id": "5222-8713-f0de-cc98",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6fa9-704c-28bc-a54f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "<[Weapons]",
+            "id": "9207-0399-6741-ca2e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "1a4d-47a7-f155-4b52",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Citi-Def Sniper",
+            "id": "ee48-92de-1de9-aca4",
+            "hidden": false,
+            "targetId": "bc74-4f09-d9e2-d3d4",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "1ba5-0dfe-80d2-af1a",
+                "type": "append",
+                "value": "(+1)",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "3a4d-7b29-909d-f229",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Sniper, Body Armour",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "3a4d-7b29-909d-f229",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "rules": [{"name": "Sniper", "id": "bcf9-cce7-ff82-5ba3", "description": "Any attempt to dodge a hit from the Sniper's attack will be at -1 Evade.", "hidden": false}]
+      },
+      {
+        "name": "Citi-Def Trooper",
+        "id": "c368-4f60-c279-072b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "394f-ba9f-7458-d034", "hidden": false, "primary": false, "targetId": "9cfd-c39e-c906-9440"},
+          {"name": "New CategoryLink", "id": "cad1-d68b-d3aa-fe8b", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 4}],
+        "entryLinks": [
+          {
+            "name": ">Body Armour",
+            "id": "cd33-0da9-64e1-67d7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6fa9-704c-28bc-a54f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "<[Weapons]",
+            "id": "75e1-5f99-1cbd-257e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "12e4-eeda-973c-cfd5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Citi-Def Trooper",
+            "id": "2943-c96d-547e-7f98",
+            "hidden": false,
+            "targetId": "7f96-3d7c-dd24-333d",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Body Armour",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "c368-4f60-c279-072b",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "1ba5-0dfe-80d2-af1a",
+                "type": "append",
+                "value": "(+1)",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "c368-4f60-c279-072b",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Citi-Def Auxiliary",
+        "id": "84ba-e5c6-d15a-d9c6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "e2e1-1758-fcbe-a83f", "hidden": false, "primary": false, "targetId": "9cfd-c39e-c906-9440"},
+          {"name": "New CategoryLink", "id": "412a-894a-1cb4-0d60", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 3}],
+        "entryLinks": [
+          {
+            "name": ">Body Armour",
+            "id": "3cff-dc26-9e2c-c0d0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6fa9-704c-28bc-a54f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "<[Weapons]",
+            "id": "4bcf-d12d-62f5-3f25",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5af3-34a2-637e-bc2f",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "<[mounts]",
+            "id": "7031-d83f-c64e-1769",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "acf4-d154-6dd7-28a4",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Citi-Def Auxiliary",
+            "id": "a759-663a-4f0a-2404",
+            "hidden": false,
+            "targetId": "fdbf-ddd7-4f46-d6ba",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "a488-1615-8c9e-2b73",
+                "type": "set",
+                "value": "Body Armour",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "84ba-e5c6-d15a-d9c6",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "1ba5-0dfe-80d2-af1a",
+                "type": "append",
+                "value": "(+1)",
+                "conditions": [
+                  {
+                    "childId": "6fa9-704c-28bc-a54f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "84ba-e5c6-d15a-d9c6",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": ">Body Armour",
+        "id": "6fa9-704c-28bc-a54f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "7e2f-35ac-66f3-8c17",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 2}],
+        "infoLinks": [{"name": ">Body Armour", "id": "1725-eee6-4767-b551", "hidden": false, "targetId": "4807-dd8d-49b4-1f71", "type": "rule"}]
+      },
+      {
+        "name": "Citi-Def Med Tech",
+        "id": "f87a-8897-0ad5-421c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "<Citi-Def", "id": "9b77-77f7-9935-273c", "hidden": false, "primary": false, "targetId": "9cfd-c39e-c906-9440"},
+          {"name": "New CategoryLink", "id": "cb32-d48c-a553-1811", "hidden": false, "primary": true, "targetId": "a11f-f32a-24ce-80e4"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 6}],
+        "entryLinks": [
+          {
+            "name": ">Body Armour",
+            "id": "a12e-57bf-94c6-414f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6fa9-704c-28bc-a54f",
+            "type": "selectionEntry"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Citi-Def Med Tech",
+            "id": "c92c-2def-171d-b262",
+            "hidden": false,
+            "typeId": "a6e3-cdc0-1b71-2e5d",
+            "typeName": "[1] Model",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+              {"name": "Shoot", "$text": "2", "typeId": "8de2-68d3-f0ee-02f0"},
+              {"name": "Fight", "$text": "2", "typeId": "c0e3-f4e1-8744-e805"},
+              {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+              {"name": "Resist", "$text": "2", "typeId": "1ba5-0dfe-80d2-af1a"},
+              {"name": "Cool", "$text": "2", "typeId": "4a73-c022-6ea7-27ce"},
+              {"name": "Special Rules", "$text": "First Aid", "typeId": "a488-1615-8c9e-2b73"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "First Aid",
+            "id": "e534-9164-2a0f-6e93",
+            "description": "A Med Tech can use the Hunker Down double-action to attemp to remove Injury or Stun markers from a single friendly model within 1\", even if that model is incapacitated. Roll a Resist test using the injured model's starting Resist stat. \nIf any [ARMOUR] results are rolled, remove one Injury or Stun marker.",
+            "hidden": false,
+            "page": 32,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Pistol",
+            "id": "a86a-05cd-2020-2dfe",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "d213-368f-f8d0-6a8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0fc8-b760-a7aa-80d0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+            "profiles": [
+              {
+                "name": "Pistol",
+                "id": "aa74-ac31-b194-5229",
+                "hidden": false,
+                "typeId": "bbb4-d231-609d-67bc",
+                "typeName": "[2] Ranged Weapon/s",
+                "characteristics": [
+                  {"name": "Short Range", "$text": "8\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                  {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                  {"name": "Long Range", "$text": "16\"", "typeId": "326e-8548-0cc4-57f3"},
+                  {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                  {"name": "Power", "$text": "3", "typeId": "8fc6-55c1-1604-402e"},
+                  {"name": "Special Rules", "typeId": "6150-dda2-d656-9797"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Citi-Def Weapon Emplacement",
+        "id": "f5b2-e968-463a-6551",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "<Citi-Def", "id": "75ae-f809-10e8-bac7", "hidden": false, "primary": false, "targetId": "9cfd-c39e-c906-9440"},
+          {"name": "New CategoryLink", "id": "6e77-e9f8-5cae-4f11", "hidden": false, "primary": true, "targetId": "297e-ed7b-a238-301c"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 18}],
+        "profiles": [
+          {
+            "name": "Citi-Def Weapon Emplacement",
+            "id": "d186-6e77-55f3-7029",
+            "hidden": false,
+            "typeId": "1ad0-6f7a-89c2-56c0",
+            "typeName": "[4] Mount",
+            "characteristics": [
+              {"name": "Move", "$text": "0\"", "typeId": "f8e7-0c5a-630a-6072"},
+              {"name": "Shoot", "$text": "3", "typeId": "cf37-0e8c-2b04-e94e"},
+              {"name": "Fight", "$text": "1", "typeId": "9bbe-2745-8a35-94ab"},
+              {"name": "Evade", "$text": "0", "typeId": "8a4d-9660-2e2d-760c"},
+              {"name": "Resist", "$text": "5", "typeId": "5895-12a6-bdef-a0b4"},
+              {"name": "Cool", "$text": "2", "typeId": "e971-e0b1-c42c-0f04"},
+              {"name": "Special Rules", "$text": "Hard to Move", "typeId": "c7e1-0b5d-d4d9-8634"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Hard to Move",
+            "id": "24f3-87e4-5286-f5c1",
+            "description": "Once deplayed, weapon emplacements are extremely difficult to move. Ordinarily, this model is never moved, but by using a Sprint double-action is can be moved D6\".",
+            "hidden": false,
+            "page": 33,
+            "publicationId": "4353-a3c6-7b4d-0185"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "42d9-6ab5-6027-736d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3981-5a93-428d-73b0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "8cd1-6ea4-ad90-edfd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Laser Cannon",
+                "id": "649a-cd97-75ff-15af",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 24,
+                "publicationId": "4353-a3c6-7b4d-0185",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [
+                  {"name": "Heavy Weapon", "id": "3120-54b2-0a7d-bfa8", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"},
+                  {"name": "Laser", "id": "1bbb-2888-673d-dcd6", "hidden": false, "targetId": "40c1-f0e4-f19b-eb43", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Laser Cannon",
+                    "id": "1cf7-3f61-bfe8-3462",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "25\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "50\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "6", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Heavy Weapon, Laser", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Missile Defence Laser",
+                "id": "e97b-06df-6780-5d69",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 24,
+                "publicationId": "4353-a3c6-7b4d-0185",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [
+                  {"name": "Heavy Weapon", "id": "abf3-54c7-6442-022c", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"},
+                  {"name": "Laser", "id": "f294-7088-bdd8-43c3", "hidden": false, "targetId": "40c1-f0e4-f19b-eb43", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Missile Defence Laser",
+                    "id": "1657-d247-d5fd-7270",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "35\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+1", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "70\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "+2", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Heavy Weapon, Laser", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sonic Cannon",
+                "id": "cc62-a703-bb79-6a42",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 34,
+                "publicationId": "4353-a3c6-7b4d-0185",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [
+                  {"name": "Blast(X\")", "id": "c53c-cf17-de0f-3727", "hidden": false, "targetId": "0a79-b0ce-a34b-0548", "type": "rule"},
+                  {"name": "Heavy Weapon", "id": "296d-699e-fd78-52a1", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"},
+                  {"name": "Piercing", "id": "6533-179c-87d4-67fa", "hidden": false, "targetId": "3b97-6a4a-235f-ac9e", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Sonic Cannon",
+                    "id": "49cb-ecf7-2111-9817",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "15\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "30\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "+2", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Blast (5\"), Heavy Weapon, Piercing, Sonic", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Sonic",
+                    "id": "85fd-4c60-6864-3caa",
+                    "description": "The non-lethal Stun special rule is always used with the sonic cannon.",
+                    "hidden": false,
+                    "page": 24,
+                    "publicationId": "4353-a3c6-7b4d-0185"
+                  }
+                ]
+              },
+              {
+                "name": "Spit Cannon",
+                "id": "fb2f-9b6d-a048-11a6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "page": 24,
+                "publicationId": "4353-a3c6-7b4d-0185",
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [{"name": "Heavy Weapon", "id": "9c9d-1ea0-0e1e-5698", "hidden": false, "targetId": "c107-0557-c264-e217", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Spit Cannon",
+                    "id": "4b23-0d08-9c20-89ea",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "16\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "48\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "+1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "$text": "Fearsome Rate of Fire, Heavy Weapon", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Fearsome Rate of Fire",
+                    "id": "e735-b743-445c-561c",
+                    "description": "When performing an Aimed Fire double-action, the model can make up to three separate ranged attacks. However, it does not receive the Aimed Fire bonus to Shoot or Power if it does.",
+                    "hidden": false,
+                    "page": 24,
+                    "publicationId": "4353-a3c6-7b4d-0185"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jaeger Squad Commando",
+        "id": "5d1d-975c-cc7c-62d6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "<Citi-Def", "id": "818c-7649-bb77-7bc8", "hidden": false, "primary": false, "targetId": "9cfd-c39e-c906-9440"},
+          {"name": "New CategoryLink", "id": "40c4-2906-c564-7ee1", "hidden": false, "primary": true, "targetId": "1257-e7a3-4b18-49bc"}
+        ],
+        "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 14}],
+        "profiles": [
+          {
+            "name": "Jaeger Squad Commando",
+            "id": "682c-569d-4a3b-990f",
+            "hidden": false,
+            "typeId": "a6e3-cdc0-1b71-2e5d",
+            "typeName": "[1] Model",
+            "characteristics": [
+              {"name": "Move", "$text": "6\"", "typeId": "0a83-d3be-bc14-c04b"},
+              {"name": "Shoot", "$text": "4", "typeId": "8de2-68d3-f0ee-02f0"},
+              {"name": "Fight", "$text": "3", "typeId": "c0e3-f4e1-8744-e805"},
+              {"name": "Evade", "$text": "2", "typeId": "2dde-74b6-a414-836d"},
+              {"name": "Resist", "$text": "3", "typeId": "1ba5-0dfe-80d2-af1a"},
+              {"name": "Cool", "$text": "4", "typeId": "4a73-c022-6ea7-27ce"},
+              {"name": "Special Rules", "$text": "I Can Make It!, Sucker Guns", "typeId": "a488-1615-8c9e-2b73"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon",
+            "id": "ce79-4ef3-af96-7d49",
+            "collective": false,
+            "defaultSelectionEntryId": "48ce-adb0-809a-9898",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3379-fa6e-5763-c870",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "0e72-06f0-761e-d8ec",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Spit Carbine",
+                "id": "48ce-adb0-809a-9898",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Spit Carbine",
+                    "id": "47cb-e324-1cc1-87a6",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "12\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+3", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "24\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "0", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "2", "typeId": "8fc6-55c1-1604-402e"},
+                      {"name": "Special Rules", "typeId": "6150-dda2-d656-9797"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Auto Stump",
+                "id": "63d2-29ae-a0ef-c3c6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Notoriety", "typeId": "c427-d435-2985-7283", "value": 0}],
+                "infoLinks": [{"name": "Knockback", "id": "2f29-6881-7d0a-087e", "hidden": false, "targetId": "09c2-49fa-9b41-5372", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Auto Stump",
+                    "id": "886b-a437-1e4f-dec3",
+                    "hidden": false,
+                    "typeId": "bbb4-d231-609d-67bc",
+                    "typeName": "[2] Ranged Weapon/s",
+                    "characteristics": [
+                      {"name": "Short Range", "$text": "10\"", "typeId": "9f6c-12c7-f2ec-d28a"},
+                      {"name": "Short Range Modifier", "$text": "+2", "typeId": "a6f0-43d7-8b5d-c394"},
+                      {"name": "Long Range", "$text": "18\"", "typeId": "326e-8548-0cc4-57f3"},
+                      {"name": "Long Range Modifier", "$text": "-1", "typeId": "6b37-0d47-3011-d3f3"},
+                      {"name": "Power", "$text": "4/2", "typeId": "8fc6-55c1-1604-402e"},
+                      {
+                        "name": "Special Rules",
+                        "$text": "Knockback, May fire 2 Snapshots in a single activation, Power 4 at short range, Power 2 at long range.",
+                        "typeId": "6150-dda2-d656-9797"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
