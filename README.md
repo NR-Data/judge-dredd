@@ -1,43 +1,29 @@
-Judge Dredd
-===========
+# Judge Dredd Miniatures Game (MP2014) data
 
-####Contents####
-* [Game][]
-* [Overview][]
-* [Links][]
+Army list data files for Judge Dredd Miniatures Game (MP2014).
 
+> **Community rehost.** These files were written by the community contributors listed below and were previously published at `github.com/BSData/judge-dredd`, which is no longer online. This copy keeps them available and open to updates.
+>
+> They are not made, maintained or endorsed by NewRecruit. Nobody here is affiliated with or endorsed by the publisher of Judge Dredd Miniatures Game (MP2014). All game names and trademarks belong to their respective owners. You still need the official rules to play.
 
-[Overview]: #overview
-Judge Dredd Miniatures Game by WarlordGames(2019)
+## Is this maintained?
 
-[Links]: #links
+It is open for updates, not archived. It is kept up by whoever contributes to it, so check the commit history to see how current it is. Last data change before the rehost: 2025-01-05.
 
-##Game##
+## How to update it
 
-Important notice!
-This is intended for the miniatures game "Judge Dredd Miniatures Game" and in no way replaces the need for use of the main rule book or any source books.
-All information in this game system is for those who have fully read and understood the rules.
-##Overview##
+- **Pull request:** fork this repository, make your changes and open a pull request.
+- **Write access:** if you want to maintain this game, ask on the NewRecruit Discord: https://discord.gg/cCtqGbugwb
 
+## File format
 
-__What's this?__
+The files are JSON, converted on 2026-11-16 from the original BattleScribe XML (`.cat`/`.gst`). The XML versions are in the git history before that commit.
 
-BSData organisation created this project. It's GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe. If you want
-to develop - cool! We need you! Take a look at [Getting Started wiki][]
+## Authors
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+From the git history of the data files:
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
-
-
-##Links##
-
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
-* [Getting Started wiki][]
-
-
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
+- Vescarea
+- skudfisher
+- Ves
+- Amadeusz Sadowski
